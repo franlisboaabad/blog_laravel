@@ -225,7 +225,7 @@
         </div>
 
         <div class="center text-center mt-5">
-            <a href="{{ route('entradas') }}" class="btn btn-success btn-sm" >Ver todas las entradas</a>
+            <a href="{{ route('entradas') }}" class="btn btn-primary btn-sm" >Ver todas las entradas</a>
         </div>
     </div>
 </section>
@@ -242,7 +242,7 @@
         <h2 class="mb-5" style="color:rgb(0, 55, 70);">Nuestros clientes nos respaldan</h2>
         <div class="row">
             <div class="col-lg-4" style="margin: 0px auto;
-            background: #dfe3eb;
+            background:#f5f8fc;
             color:rgb(0, 55, 70);
             width: 90%;
             padding: 20px;
@@ -278,7 +278,7 @@
                 </div>
             </div>
             <div class="col-lg-4" style="margin: 0 auto;
-            background: #dfe3eb;
+            background: #f5f8fc;
             color:rgb(0, 55, 70);
             width: 90%;
             padding: 20px;
