@@ -4,7 +4,7 @@
 
 <div class="box">
     <div class="box-header">
-        <h3 class="box-title">Lista de entradas</h3>
+        <h3 class="box-title" >Lista de entradas</h3>
         <a href="{{ route('posts.create') }}" class="btn btn-sm btn-primary" style="float:right;">Nueva entrada</a>
     </div>
     <!-- /.box-header -->

@@ -23,7 +23,7 @@
         header.masthead {
             position: relative;
             background-color: #343a40;
-            background: url("{{ asset('blog/img/bg-home.jpg') }}") no-repeat center center;
+            background: url("{{ asset('blog/img/home.jpg') }}") no-repeat center center;
             background-size: cover;
             padding-top: 8rem;
             padding-bottom: 8rem;

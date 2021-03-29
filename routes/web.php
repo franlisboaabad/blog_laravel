@@ -27,7 +27,7 @@ Route::get('/entradas','PageController@posts')->name('entradas');
 //auth 
 Route::get('/home', 'HomeController@index')->name('home');
 
-
+Route::get('/nosotros', function () { return view('pagina.nosotros'); });
 
 //administración 
 
