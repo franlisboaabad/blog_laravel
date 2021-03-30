@@ -25,6 +25,7 @@ img {
 
 </style>
 <br>
+<h5 style="text-align: center; color:rgb(0, 55, 70);">OST CONSULTORES TE OFRECE LOS MEJORES SERVICIOS--</h5>
 <h2 style="text-align: center; color:rgb(0, 55, 70);">Implementación de Sistemas de Gestión</h2>
     <div class="contenedor dos-columnas">
         
