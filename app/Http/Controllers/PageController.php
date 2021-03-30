@@ -25,6 +25,59 @@ class PageController extends Controller
     public function normas(){
         return view('pagina.normas');
     }
+//isos 
+public function responsabilidad_social(){
+    return view('pagina.isos.responsabilidad_social');
+}
+ 
+public function sistema_alimentaria(){
+    return view('pagina.isos.sistema_alimentaria');
+}
+
+public function sistema_ambiental(){
+    return view('pagina.isos.sistema_ambiental');
+}
+
+public function sistema_antisoborno(){
+    return view('pagina.isos.sistema_antisoborno');
+}
+
+public function sistema_calidad(){
+    return view('pagina.isos.sistema_calidad');
+}
+
+public function sistema_energetica(){
+    return view('pagina.isos.sistema_energetica');
+}
+
+public function sistema_gestion(){
+    return view('pagina.isos.sistema_gestion');
+}
+
+public function sistema_trabajo(){
+    return view('pagina.isos.sistema_trabajo');
+}
+
+public function sistema_vial(){
+    return view('pagina.isos.sistema_vial');
+}
+//servicios 
+
+public function auditoria(){
+    return view('pagina.servicios.auditoria');
+}
+
+public function capacitacion(){
+    return view('pagina.servicios.capacitacion');
+}
+
+public function cumplimiento(){
+    return view('pagina.servicios.cumplimiento');
+}
+
+public function implementacion(){
+    return view('pagina.servicios.implementacion');
+}
 
     public function contacto(){
         return view('pagina.contacto');

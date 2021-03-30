@@ -59,36 +59,36 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
-                        border-radius: 10px;" href="#">Implementación De <br>Sistemas De Gestión</a>
+                        border-radius: 10px;" href="{{ route('implementacion') }}">Implementación De <br>Sistemas De Gestión</a>
                         <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
-                        border-radius: 10px;" href="#">Auditoria Interna</a>
+                        border-radius: 10px;" href="{{ route('auditoria') }}">Auditoria Interna</a>
                         <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
-                        border-radius: 10px;" href="#">Capacitación</a>
+                        border-radius: 10px;" href="{{ route('capacitacion') }}">Capacitación</a>
                         <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
-                        border-radius: 10px;" href="#">Función De Cumplimiento</a>
+                        border-radius: 10px;" href="{{ route('cumplimiento') }}">Función De Cumplimiento</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="{{ route('normas') }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Normas</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
-                        border-radius: 10px;" href="#">ISO 26000:2010 <br>RESPONSABILIDAD <br>SOCIAL</a>
+                        border-radius: 10px;" href="{{ route('responsabilidad_social') }}">ISO 26000:2010 <br>RESPONSABILIDAD <br>SOCIAL</a>
                         <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
-                        border-radius: 10px;" href="#">ISO 27001:2018<br>SISTEMA DE GESTIÓN DE <br>SEGURIDAD DE LA INFORMACIÓN</a>
+                        border-radius: 10px;" href="{{ route('sistema_gestion')}}">ISO 27001:2018<br>SISTEMA DE GESTIÓN DE <br>SEGURIDAD DE LA INFORMACIÓN</a>
                         <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
-                        border-radius: 10px;" href="#">ISO 22000:2018<br>SISTEMA DE GESTIÓN DE <br>INOCUIDAD ALIMENTARIA</a>
+                        border-radius: 10px;" href="{{ route('sistema_alimentaria')}}">ISO 22000:2018<br>SISTEMA DE GESTIÓN DE <br>INOCUIDAD ALIMENTARIA</a>
                         <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
-                        border-radius: 10px;" href="#">ISO 14001:2015<br>SISTEMA DE GESTIÓN <br>MEDIO AMBIENTAL</a>
+                        border-radius: 10px;" href="{{ route('sistema_ambiental')}}">ISO 14001:2015<br>SISTEMA DE GESTIÓN <br>MEDIO AMBIENTAL</a>
                         <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
-                        border-radius: 10px;" href="#">ISO 9001:2015<br>SISTEMA DE GESTIÓN <br> DE CALIDAD</a>
+                        border-radius: 10px;" href="{{ route('sistema_calidad')}}">ISO 9001:2015<br>SISTEMA DE GESTIÓN <br> DE CALIDAD</a>
                         <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
-                        border-radius: 10px;" href="#">ISO 37001:2016<br>SISTEMA DE GESTIÓN <br>ANTISOBORNO</a>
+                        border-radius: 10px;" href="{{ route('sistema_antisoborno')}}">ISO 37001:2016<br>SISTEMA DE GESTIÓN <br>ANTISOBORNO</a>
                         <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
-                        border-radius: 10px;" href="#">ISO 45001:2018<br>SISTEMA DE SEGURIDAD Y <br>SALUD EN EL TRABAJO</a>
+                        border-radius: 10px;" href="{{ route('sistema_trabajo')}}">ISO 45001:2018<br>SISTEMA DE SEGURIDAD Y <br>SALUD EN EL TRABAJO</a>
                         <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
-                        border-radius: 10px;" href="#">ISO 39001:2018<br>SISTEMA DE GESTIÓN DE<br> LA SEGURIDAD VIAL</a>
+                        border-radius: 10px;" href="{{ route('sistema_vial')}}">ISO 39001:2018<br>SISTEMA DE GESTIÓN DE<br> LA SEGURIDAD VIAL</a>
                         <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
-                        border-radius: 10px;" href="#">ISO 50001:2018<br>SISTEMA DE GESTIÓN <br>ENERGÉTICA</a>
+                        border-radius: 10px;" href="{{ route('sistema_energetica')}}">ISO 50001:2018<br>SISTEMA DE GESTIÓN <br>ENERGÉTICA</a>
                     </div>
                 </li>
                 <li class="nav-item">

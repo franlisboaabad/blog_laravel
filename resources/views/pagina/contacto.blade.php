@@ -3,7 +3,7 @@
 @section('contenido')
 <style>
     :root {
-    --colorTextos: #49454567;
+    --colorTextos: #ffffff;
 }
 
 
@@ -23,7 +23,7 @@ h1{
 }
 
 .form_1{
-    background: rgb(159, 202, 227,0.3);
+    background: rgb(159, 202, 227,0.8);
     padding: 40px 0;
     box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
     border-radius: 10px;
@@ -45,7 +45,7 @@ form .grupo{
 
 input{
     background: none;
-    color: #c6c6c6;
+    color: #ffffff;
     font-size: 18px;
     padding: 10px 10px 10px 5px;
     display: block;
@@ -56,7 +56,7 @@ input{
 
 input:focus{ 
     outline: none;
-    color: #5e5d5d;
+    color: #ffffff;
 }
 
 label{
@@ -73,7 +73,7 @@ input:focus~label,
 input:valid~label{
     top: -14px;
     font-size: 12px;
-    color: #2196f3;
+    color: #ffffff;
 }
 
 .barra{
@@ -164,7 +164,7 @@ input:focus~.barra::before{
 <div class="contenedor" style="max-width: 600px; align-content:center;">
 <form class="form_1" action="" method="POST" id="form">
     <div class="form">
-        <h3 style="text-align:center;">Escríbenos y <br>Resolveremos tus Dudas</h3>
+        <h3 style="text-align:center; color:white; -webkit-text-stroke: 1px black;">Escríbenos y <br>Resolveremos tus Dudas</h3>
         <div class="grupo">
             <input type="text" name="nombres" id="nombres" required><span class="barra"></span>
             <label for="">Nombres</label>
@@ -174,7 +174,7 @@ input:focus~.barra::before{
             <label for="">Correo Eléctronico</label>
         </div>
         <div class="grupo">
-            <input type="telf" name="celular" id="celular" required><span class="barra"></span>
+            <input type="number" name="celular" id="celular" required><span class="barra"></span>
             <label for="">Celular</label>
         </div>
         <div class="grupo">
