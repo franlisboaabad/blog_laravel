@@ -54,7 +54,7 @@
                     <a class="nav-link" href="{{ route('nosotros') }}">Nosotros</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="{{ route('servicios') }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Servicios
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -69,9 +69,7 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Normas
-                    </a>
+                    <a class="nav-link dropdown-toggle" href="{{ route('normas') }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Normas</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
                         border-radius: 10px;" href="#">ISO 26000:2010 <br>RESPONSABILIDAD <br>SOCIAL</a>
@@ -94,7 +92,7 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="{{ route('contacto') }}">Contacto</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">

@@ -18,6 +18,18 @@ class PageController extends Controller
         return view('pagina.nosotros');
     }
 
+    public function servicios(){
+        return view('pagina.servicios');
+    }
+
+    public function normas(){
+        return view('pagina.normas');
+    }
+
+    public function contacto(){
+        return view('pagina.contacto');
+    }
+
 
     public function post($id)
     {        

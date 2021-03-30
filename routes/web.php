@@ -24,6 +24,9 @@ Route::get('/','PageController@index')->name('index');
 Route::get('/entrada/{id}','PageController@post')->name('entrada');
 Route::get('/entradas','PageController@posts')->name('entradas');
 Route::get('/nosotros','PageController@nosotros')->name('nosotros');
+Route::get('/servicios','PageController@servicios')->name('servicios');
+Route::get('/normas','PageController@normas')->name('normas');
+Route::get('/contacto','PageController@contacto')->name('contacto');
 //auth 
 Route::get('/home', 'HomeController@index')->name('home');
 
