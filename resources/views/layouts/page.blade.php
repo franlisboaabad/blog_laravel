@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Blog :: Informático</title>
+    <title>OST CONSULTORES @yield('title',' - INICIO')</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('blog/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -25,17 +25,53 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-light bg-light static-top">
+    {{-- <nav class="navbar navbar-light bg-light static-top">
         <div class="container">
-            <a class="navbar-brand" href="/">Blog informático</a>
-            {{-- <a class="btn btn-primary" href="#">Sign In</a> --}}
-            @if(Route::has('login'))
+            <a class="navbar-brand" href="/">OST CONSULTORES</a> --}}
+    {{-- <a class="btn btn-primary" href="#">Sign In</a> --}}
+    {{-- @if(Route::has('login'))
             @auth
             <a class="btn btn-primary" href="{{ url('/home') }}">Administración</a>
-            @else
-            <a class="btn btn-primary btn-sm" href="{{ route('login') }}">Acceder</a>
-            @endauth
-            @endif
+    @else
+    <a class="btn btn-primary btn-sm" href="{{ route('login') }}">Acceder</a>
+    @endauth
+    @endif --}}
+    {{-- </div>
+    </nav> --}}
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">OST CONSULTORES</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
     </nav>
 
@@ -65,7 +101,7 @@
 
     @yield('contenido')
 
-    
+
 
     <!-- Footer -->
     <footer class="footer bg-light">
@@ -113,6 +149,13 @@
             </div>
         </div>
     </footer>
+
+
+    <div style="position: fixed; z-index: 900; bottom: 90px; right: 14px;">
+        <div style="width: 70px; height: 70px; float: left; overflow: hidden;">
+            <a href="#" target="_blank"> <img src="{{ asset('img/whatsapp-png.png') }}" class="img-fluid" style="height: 60px; width: 60px"></a></div>
+    </div>
+
 
     <!-- Bootstrap core JavaScript -->
     <script src="{{ asset('blog/vendor/jquery/jquery.min.js') }}"></script>
