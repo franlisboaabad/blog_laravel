@@ -40,7 +40,7 @@
     </nav> --}}
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">OST CONSULTORES</a>
+        <a class="navbar-brand" href="{{ route('index') }}">OST CONSULTORES</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -48,24 +48,53 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="{{ route('nosotros') }}">Nosotros</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
+                        Servicios
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
+                        border-radius: 10px;" href="#">Implementación De <br>Sistemas De Gestión</a>
+                        <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
+                        border-radius: 10px;" href="#">Auditoria Interna</a>
+                        <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
+                        border-radius: 10px;" href="#">Capacitación</a>
+                        <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
+                        border-radius: 10px;" href="#">Función De Cumplimiento</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Normas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
+                        border-radius: 10px;" href="#">ISO 26000:2010 <br>RESPONSABILIDAD <br>SOCIAL</a>
+                        <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
+                        border-radius: 10px;" href="#">ISO 27001:2018<br>SISTEMA DE GESTIÓN DE <br>SEGURIDAD DE LA INFORMACIÓN</a>
+                        <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
+                        border-radius: 10px;" href="#">ISO 22000:2018<br>SISTEMA DE GESTIÓN DE <br>INOCUIDAD ALIMENTARIA</a>
+                        <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
+                        border-radius: 10px;" href="#">ISO 14001:2015<br>SISTEMA DE GESTIÓN <br>MEDIO AMBIENTAL</a>
+                        <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
+                        border-radius: 10px;" href="#">ISO 9001:2015<br>SISTEMA DE GESTIÓN <br> DE CALIDAD</a>
+                        <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
+                        border-radius: 10px;" href="#">ISO 37001:2016<br>SISTEMA DE GESTIÓN <br>ANTISOBORNO</a>
+                        <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
+                        border-radius: 10px;" href="#">ISO 45001:2018<br>SISTEMA DE SEGURIDAD Y <br>SALUD EN EL TRABAJO</a>
+                        <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
+                        border-radius: 10px;" href="#">ISO 39001:2018<br>SISTEMA DE GESTIÓN DE<br> LA SEGURIDAD VIAL</a>
+                        <a class="dropdown-item" style="font-size: 12px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.377);
+                        border-radius: 10px;" href="#">ISO 50001:2018<br>SISTEMA DE GESTIÓN <br>ENERGÉTICA</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-link" href="#">Contacto</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">

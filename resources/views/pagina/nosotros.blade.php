@@ -1,6 +1,5 @@
 @extends('layouts.page')
-
-
+@section('title','-NOSOTROS')
 @section('contenido')
 <section class="features-icons bg-light text-center container">
     

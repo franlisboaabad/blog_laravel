@@ -14,6 +14,10 @@ class PageController extends Controller
         return view('welcome', compact('posts'));
     }
 
+    public function nosotros(){
+        return view('pagina.nosotros');
+    }
+
 
     public function post($id)
     {        

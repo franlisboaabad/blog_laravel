@@ -23,11 +23,11 @@ Auth::routes();
 Route::get('/','PageController@index')->name('index');
 Route::get('/entrada/{id}','PageController@post')->name('entrada');
 Route::get('/entradas','PageController@posts')->name('entradas');
-
+Route::get('/nosotros','PageController@nosotros')->name('nosotros');
 //auth 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/nosotros', function () { return view('pagina.nosotros'); });
+
 
 //administración 
 
