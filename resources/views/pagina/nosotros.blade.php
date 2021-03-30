@@ -61,9 +61,9 @@
         <div class="col-lg-2"  style="margin-left: 30px">
             <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <div class="features-icons-icon d-flex">
-                    <a href="" class=" m-auto text-primary">
+                    <div class=" m-auto text-primary">
                         <img src="{{ asset('../blog/img/valores/PASION-NORMAS.png') }}"  alt="" style="width: 100px; height:100px;">
-                    </a>
+                    </div>
                     <br>
                 </div>
                 <h3 style="color:rgb(0, 55, 70); font-size:25px">PASIÓN</h3>
@@ -73,9 +73,9 @@
         <div class="col-lg-2"  style="margin-left: 30px">
                 <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                     <div class="features-icons-icon d-flex">
-                        <a href="" class=" m-auto text-primary">
+                        <div class=" m-auto text-primary">
                             <img src="{{ asset('../blog/img/valores/CONFIANZA-NORMAS.png') }}"  alt="" style="width: 100px; height:100px;">
-                        </a>
+                        </div>
                         <br>
                     </div>
                     <h3 style="color:rgb(0, 55, 70); font-size:25px">CONFIANZA</h3>
@@ -85,9 +85,9 @@
             <div class="col-lg-2"  style="margin-left: 30px">
             <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <div class="features-icons-icon d-flex">
-                    <a href="" class=" m-auto text-primary">
+                    <div class=" m-auto text-primary">
                         <img src="{{ asset('../blog/img/valores/FLEXIBILIDAD-NORMAS.png') }}"  alt="" style="width: 100px; height:100px;">
-                    </a>
+                    </div>
                     <br>
                 </div>
                 <h3 style="color:rgb(0, 55, 70); font-size:25px">FLEXIBILIDAD</h3>
@@ -97,9 +97,9 @@
         <div class="col-lg-2"  style="margin-left: 30px">
         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
-                <a href="" class=" m-auto text-primary">
+                <div class=" m-auto text-primary">
                     <img src="{{ asset('../blog/img/valores/INTEGRIDAD-NORMAS.png') }}"  alt="" style="width: 100px; height:100px;">
-                </a>
+                </div>
                 <br>
             </div>
             <h3 style="color:rgb(0, 55, 70); font-size:25px">INTEGRIDAD</h3>
@@ -110,9 +110,9 @@
     <div class="col-lg-2"  style="margin-left: 30px">
     <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
         <div class="features-icons-icon d-flex">
-            <a href="" class=" m-auto text-primary">
+            <div class=" m-auto text-primary">
                 <img src="{{ asset('../blog/img/valores/TRANSPARENCIA-NORMAS.png') }}"  alt="" style="width: 100px; height:100px;">
-            </a>
+            </div>
             <br>
         </div>
         <h3 style="color:rgb(0, 55, 70); font-size:25px">TRANSPARENCIA</h3>
