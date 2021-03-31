@@ -5,31 +5,30 @@
     <div class="row mt-5">
         <div class="col-md-8 mb-3">
             <div class="card">
-                <img src="{{ asset('blog/img/ambiental.jpg') }}" class="card-img-top"
+                <img src="{{ asset('blog/img/energia.jpg') }}" class="card-img-top"
                     alt="sistemas-de-gestion">
                 <div class="card-body">
-                    <h5 class="card-title">ISO 14001:2015 SISTEMA DE GESTIÓN MEDIO AMBIENTAL</h5>
-                    <p class="card-text text-justify">Norma internacional que permite a las empresas
-                         demostrar el compromiso asumido con la protección del medio ambiente a través 
-                         de la gestión de riesgos medioambientales asociados a la actividad desarrollada. Al asumir la responsabilidad ambiental 
-                        se proyecta y refuerza la imagen comercialmente sostenible de la empresa.                 
+                    <h5 class="card-title">ISO 50001:2018 SISTEMA DE GESTIÓN ENERGÉTICA</h5>
+                    <p class="card-text text-justify">Norma internacional basada en el Sistema de Gestión Energética dedicada
+                         a desarrollar e implantar su política energética, así como a gestionar aquellos elementos de sus actividades,
+                          productos o servicios que interactúan con el uso de la energía. La norma ISO 50001 establece los requisitos 
+                          que debe poseer un Sistema de Gestión Energética, 
+                        con el fin de realizar mejoras continuas y sistemáticas del rendimiento energético de las organizaciones.                 
                         
                             
                       </p>
                       <h3>Beneficios:</h3>
                       <ol type="1" >
-                          <li>Aumento de la eficacia ambiental.</li>
-                          <li>Disminución de costes durante el tratamiento.</li>
-                          <li>Reducción en la utilización de materias primas y energía.</li>
-                          <li>Ayuda a la organización a disminuir la contaminación emitida.</li>
-                          <li>5.	Mejora la imagen de la organización ante las autoridades reguladoras 
-                              y gobierno, 
-                              al mostrar el cumplimiento de la legislación en materia ambiental.</li>
+                          <li>Ahorro energético y económico.</li>
+                          <li>Reducción de costes empresariales.</li>
+                          <li>Ayuda en el cumplimiento de la gestión vigente.</li>
+                          <li>Impulsar la eficiencia energética.</li>
+                       
                           
                       </ol>
                       
                       <h4 style="text-align: center">CONSIGUE UNA COTIZACIÓN<br>
-                        ISO 14001</h4>
+                        ISO 50001</h4>
                       <form action="">
                     <div class="row">
                         <div class="col-md-6 mb-3">
