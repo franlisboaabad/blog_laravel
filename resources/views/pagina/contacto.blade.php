@@ -100,6 +100,7 @@ input:focus~.barra::before{
 
 .button1{
     font-family: 'roboto';
+    font-weight: bold;
     background: #4568DC;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right,  #35257e, #2b8894);
@@ -112,8 +113,11 @@ input:focus~.barra::before{
     margin: 10px auto;
     color: #fff;
     height: 40px;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
+}
+.button1:hover{
+    background: #18d855;
 }
 
 @media screen and (max-width:500px){
