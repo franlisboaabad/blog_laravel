@@ -75,11 +75,6 @@
             </div>
 
         </div>
-
-        <div class="service text-center mt-5">
-            <a href="{{ route('servicios') }}" class="btn btn-primary" style="background-color: #000080">MÁS
-                SERVICIOS</a>
-        </div>
     </div>
 </section>
 @endsection
