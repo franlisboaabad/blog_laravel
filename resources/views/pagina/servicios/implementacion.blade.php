@@ -30,7 +30,7 @@ img {
     <div class="contenedor dos-columnas">
         
         <article class="entrada-blog">            
-        <img src="{{ asset('../blog/img/implementacion1.jpg') }}">
+        <img src="{{ asset('../blog/img/sistemas_gestion.jpg') }}">
            
           
         </article>
