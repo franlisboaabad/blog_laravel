@@ -30,45 +30,45 @@
                       
                       <!--  -->
                       <div class="container">
-                        <div class="row">
-                            <div class="col-3">
+                        <div class="row mt-5">
+                            <div class="col-3 mb-3">
                                 <img src="{{ asset('blog/img/calidad/9001-gestion-de-calidad-evaluacion-del-entorno-150x150.png') }}" alt="Mejor tiempo"  style="width:80px; height:auto;">
                                 <p>Evaluación del entorno competitivo</p>
                             </div>
         
-                            <div class="col-3">
+                            <div class="col-3 mb-3">
                                 <img src="{{ asset('blog/img/calidad/iso-9001-gestion-de-calidad-mejora-continua-150x150.png') }}" alt="Mejor tiempo"  style="width:80px; height:auto;">
                                 <p>Mejora continua</p>
                             </div>
         
         
-                            <div class="col-3">
+                            <div class="col-3 mb-3">
                                 <img src="{{ asset('blog/img/calidad/iso-9001-gestion-de-calidad-cumplimiento-requisitos-legales-150x150.png') }}" alt="Mejor tiempo"  style="width:80px; height:auto;">
                                 <p>Cumplimiento de los requisitos legales</p>
                             </div>
         
-                            <div class="col-3">
+                            <div class="col-3 mb-3">
                                 <img src="{{ asset('blog/img/calidad/iso-9001-gestion-de-calidad-organizacion-solida-150x150.png') }}" alt="Mejor tiempo"  style="width:80px; height:auto;">
                                 <p>Organización más sólida y mejor estructurada</p>
                             </div>
                         </div>
-                          <div class="row ">
-                            <div class="col-3">
+                          <div class="row mt-5">
+                            <div class="col-3 mb-3">
                                 <img src="{{ asset('blog/img/calidad/iso-9001-gestion-de-calidad-mejor-reputacion-150x150.png') }}" alt="Mejor tiempo"  style="width:80px; height:auto;">
                                 <p>Mejor reputación e imagen corporativa</p>
                             </div>
         
-                            <div class="col-3">
+                            <div class="col-3 mb-3">
                                 <img src="{{ asset('blog/img/calidad/iso-9001-gestion-de-calidad-atraccon-de-clientes-150x150.png') }}" alt="Mejor tiempo"  style="width:80px; height:auto;">
                                 <p>Atracción de nuevo clientes</p>
                             </div>
 
-                            <div class="col-3">
+                            <div class="col-3 mb-3">
                                 <img src="{{ asset('blog/img/calidad/iso-9001-gestion-de-calidad-enfoque-al-cliente-150x150.png') }}" alt="Mejor tiempo"  style="width:80px; height:auto;">
                                 <p>Mayor enfoque al cliente y partes interesadas</p>
                             </div>
         
-                            <div class="col-3">
+                            <div class="col-3 mb-3">
                                 <img src="{{ asset('blog/img/calidad/iso-9001-gestion-de-calidad-gestion-de-riesgos-150x150.png') }}" alt="Mejor tiempo"  style="width:80px; height:auto;">
                                 <p>Gestión de riesgos y oportunidades</p>
                             </div>
@@ -109,7 +109,7 @@
 
                           <!--  -->
                       <h4 style="text-align: center">CONSIGUE UNA COTIZACIÓN<br>
-                        ISO 37001</h4>
+                        ISO 9001</h4>
                       <form action="">
                     <div class="row">
                         <div class="col-md-6 mb-3">
