@@ -95,11 +95,10 @@
                         <ul class="nav navbar-nav">
                             <li><a href="/">INICIO</a></li>
 
-                            <li><a href="#!">NOSOTROS</a></li>
-                            <li><a href="#!">SERVICIOS</a></li>
-                            <li><a href="/#latam">PRESENCIA LATAM</a></li>
-                            <li><a href="#!">PORTAFOLIO</a></li>
-                            <li><a href="#!">CONTACTO</a></li>
+                            <li><a href="{{ route('nosotros') }}">NOSOTROS</a></li>
+                            <li><a href="{{route('servicios')}}">SERVICIOS</a></li>
+                            <li><a href="{{route('portafolio')}}">PORTAFOLIO</a></li>
+                            <li><a href="{{route('contacto')}}">CONTACTO</a></li>
                         </ul>
                     </div><!-- end of nav-collapse -->
 
@@ -120,7 +119,7 @@
         <!-- end of header -->
 
         <div class="main">
-            @yield('section')
+            @yield('contenido')
         </div>
 
 

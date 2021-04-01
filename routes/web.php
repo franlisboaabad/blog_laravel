@@ -21,6 +21,13 @@ Auth::routes();
 
 // Route::get('/', function () { return view('welcome'); });
 Route::get('/','PageController@index')->name('index');
+
+Route::get('nosotros','PageController@nosotros')->name('nosotros');
+Route::get('servicios','PageController@servicios')->name('servicios');
+Route::get('portafolio','PageController@portafolio')->name('portafolio');
+Route::get('contacto','PageController@contacto')->name('contacto');
+
+
 Route::get('/entrada/{id}','PageController@post')->name('entrada');
 Route::get('/entradas','PageController@posts')->name('entradas');
 

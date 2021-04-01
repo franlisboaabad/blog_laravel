@@ -14,7 +14,26 @@ class PageController extends Controller
         return view('welcome', compact('posts'));
     }
 
+    public function nosotros()
+    {
+        return view('nosotros');
+    }
 
+    public function servicios()
+    {
+        return view('servicios');
+    }
+    
+    public function portafolio()
+    {
+        return view('portafolio');
+    }
+
+    
+    public function contacto()
+    {
+        return view('contacto');
+    }
     public function post($id)
     {        
         $post = Post::findOrFail($id);

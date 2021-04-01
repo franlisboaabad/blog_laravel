@@ -5,9 +5,8 @@
        margin-bottom: 250px;
     }
 
-
 </style>
-@section('section')
+@section('contenido')
 
     <!-- start of hero -->
     <section class="hero hero-slider-wrapper hero-style-2">
