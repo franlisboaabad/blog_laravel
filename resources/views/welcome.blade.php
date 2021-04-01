@@ -135,8 +135,8 @@
                             </a>
                             <br>
                         </div>
-                        <h3 style=" color:rgb(0, 55, 70); ">ISO 26000:2010</h3>
-                        <p class=" lead mb-0 " style=" color:rgb(0, 55, 70); ">RESPONSABILIDAD SOCIAL</p>
+                        <h5 style=" color:rgb(0, 55, 70); ">ISO 26000:2010</h5>
+                        <p class=" mb-0 " style=" color:rgb(0, 55, 70); ">RESPONSABILIDAD SOCIAL</p>
                     </div>
                 </div>
                 <div class=" col-lg-4 ">
@@ -148,8 +148,8 @@
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
-                        <h3 style=" color:rgb(0, 55, 70); ">ISO 27001:2018</h3>
-                        <p class=" lead mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN DE SEGURIDAD DE LA
+                        <h5 style=" color:rgb(0, 55, 70); ">ISO 27001:2018</h5>
+                        <p class=" mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN DE SEGURIDAD DE LA
                             INFORMACIÓN
                         </p>
                     </div>
@@ -163,8 +163,8 @@
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
-                        <h3 style=" color:rgb(0, 55, 70); ">ISO 22000:2018</h3>
-                        <p class=" lead mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN DE INOCUIDAD ALIMENTARIA
+                        <h5 style=" color:rgb(0, 55, 70); ">ISO 22000:2018</h5>
+                        <p class=" mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN DE INOCUIDAD ALIMENTARIA
                         </p>
                     </div>
                 </div>
@@ -177,8 +177,8 @@
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
-                        <h3 style=" color:rgb(0, 55, 70); ">ISO 14001:2015</h3>
-                        <p class=" lead mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN MEDIO AMBIENTAL</p>
+                        <h5 style=" color:rgb(0, 55, 70); ">ISO 14001:2015</h5>
+                        <p class=" mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN MEDIO AMBIENTAL</p>
                     </div>
                 </div>
                 <div class=" col-lg-4 ">
@@ -190,8 +190,8 @@
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
-                        <h3 style=" color:rgb(0, 55, 70); ">ISO 9001:2015</h3>
-                        <p class=" lead mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN DE CALIDAD</p>
+                        <h5 style=" color:rgb(0, 55, 70); ">ISO 9001:2015</h5>
+                        <p class=" mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN DE CALIDAD</p>
                     </div>
                 </div>
                 <div class=" col-lg-4 ">
@@ -203,8 +203,8 @@
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
-                        <h3 style=" color:rgb(0, 55, 70); ">ISO 37001:2016</h3>
-                        <p class=" lead mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN ANTISOBORNO</p>
+                        <h5 style=" color:rgb(0, 55, 70); ">ISO 37001:2016</h5>
+                        <p class=" mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN ANTISOBORNO</p>
                     </div>
                 </div>
                 <div class=" col-lg-4 ">
@@ -216,8 +216,8 @@
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
-                        <h3 style=" color:rgb(0, 55, 70); ">ISO 45001:2018</h3>
-                        <p class=" lead mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE SEGURIDAD Y SALUD EN EL TRABAJO
+                        <h5 style=" color:rgb(0, 55, 70); ">ISO 45001:2018</h5>
+                        <p class=" mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE SEGURIDAD Y SALUD EN EL TRABAJO
                         </p>
                     </div>
                 </div>
@@ -230,8 +230,8 @@
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
-                        <h3 style=" color:rgb(0, 55, 70); ">ISO 39001:2018</h3>
-                        <p class=" lead mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN DE LA SEGURIDAD VIAL</p>
+                        <h5 style=" color:rgb(0, 55, 70); ">ISO 39001:2018</h5>
+                        <p class=" mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN DE LA SEGURIDAD VIAL</p>
                     </div>
                 </div>
                 <div class=" col-lg-4 ">
@@ -243,8 +243,8 @@
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
-                        <h3 style=" color:rgb(0, 55, 70); ">ISO 50001:2018</h3>
-                        <p class=" lead mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN ENERGÉTICA</p>
+                        <h5 style=" color:rgb(0, 55, 70); ">ISO 50001:2018</h5>
+                        <p class=" mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN ENERGÉTICA</p>
                     </div>
                 </div>
             </div>

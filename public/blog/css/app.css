@@ -1,0 +1,66 @@
+/* paginas internas */
+
+header.masthead-internas {
+    position: relative;
+    background-color: #343a40;
+    background: url("../img/ost-internas.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+header.masthead-internas .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+
+
+
+/* isos */
+
+header.masthead-iso {
+    position: relative;
+    background-color: #343a40;
+    background: url("../img/ost-iso.png") no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+header.masthead-iso .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+
+
+/* contacto */
+
+header.masthead-contacto {
+    position: relative;
+    background-color: #343a40;
+    background: url("../img/ost-contacto.jpg") no-repeat center center;
+    background-size: cover;
+    height: 40vh;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+header.masthead-contacto .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
