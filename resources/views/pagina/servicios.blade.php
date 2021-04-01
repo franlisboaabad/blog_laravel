@@ -1,6 +1,26 @@
 @extends('layouts.page')
 @section('title','-SERVICIOS')
+<style>
+    .masthead {
+        display: none !important;
+    }
+
+</style>
 @section('contenido')
+
+<!-- Masthead -->
+<header class="masthead-internas text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 mx-auto">
+                <h2 class="mb-5">SERVICIOS</h2>
+            </div>
+        </div>
+    </div>
+</header>
+
+
 <section class="text-center mt-5">
     <div class="container">
         <h2 style="color: #000080 !important">NUESTROS SERVICIOS</h2>
