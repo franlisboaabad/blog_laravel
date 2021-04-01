@@ -52,18 +52,9 @@
                             alt="sistemas-de-gestion">
                         <div class="card-body">
                             <h5 class="card-title">Implementación de Sistemas de Gestión</h5>
-                            <p class="card-text text-justify">En
-                                nuestra empresa
-                                realizamos el servicio de Implementación de Sistemas de Gestión y nos enfocamos
-                                en lograr la certificación que necesita tu empresa. Garantizamos el cumplimiento de
-                                las necesidades
-                                y expectativas de nuestros clientes.
-                                La implementación de un Sistema de Gestión le da un valor agregado a su organización
-                                e imagen
-                                institucional.
-                                Las etapas para una correcta implementación abarcan un conjunto de pasos que pueden
-                                variar
-                                dependiendo de la realidad de cada empresa.</p>
+                            <p class="card-text text-justify">
+                                En nuestra empresa realizamos el servicio de Implementación de Sistemas de Gestión y nos enfocamos en lograr la certificación que necesita tu empresa. <a href="{{ route('implementacion') }}">Leer mas..</a>.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -78,13 +69,7 @@
                                 de Gestión a través de la verificación de la información documentada y su nivel de
                                 implementación
                                 para determinar
-                                el grado de cumplimiento de los estándares.
-                                Nuestro equipo de expertos en auditorías cuenta con experiencia en todo tipo de
-                                sectores e
-                                industrias, lo cual
-                                garantiza y supervisa el status de sus procesos, operaciones y proyectos para que se
-                                cumplan con las
-                                normativas internacionales.</p>
+                                <a href="{{ route('auditoria') }}">Leer mas..</a></p>
                         </div>
                     </div>
                 </div>
@@ -98,15 +83,8 @@
                             <p class="card-text text-justify"> servicio de
                                 capacitación se programa en acuerdo con su
                                 organización. Nos adaptamos a su disponibilidad y posibilidades.
-                                A través de la plataforma de ISO´s Teach, generamos las sesiones que necesite para
-                                compartir
-                                conocimiento y
-                                experiencias de parte de nuestro equipo especializado.
-                                Estas capacitaciones son guiadas por consultores expertos que están dispuestos y
-                                preparados para
-                                resolver
-                                cualquier duda y están orientadas al trabajo práctico.
-                                Todos enseñan conceptos, aquí aprenderás cómo hacerlo.</p>
+                                A través de la plataforma de ISO´s Teach,
+                                <a href="{{ route('capacitacion') }}">Leer mas..</a></p>
                         </div>
                     </div>
                 </div>
