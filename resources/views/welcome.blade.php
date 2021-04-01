@@ -6,7 +6,7 @@
         <div class="container my-5 text-center">
             <h2 style="color: #000080 !important">OST CONSULTORES</h2>
             <p class="mt-5">Una de las consultoras técnicas especializadas más importantes del Perú. Nuestra trayectoria
-                suma 10 años brindando servicios en cuestión de Normas ISO en diversas partes de Latinoamérica.</p>
+                suma 5 años brindando servicios en cuestión de Normas ISO en diversas partes de Latinoamérica.</p>
         </div>
 
         <div class="eleccion mt-5 text-center">
@@ -129,27 +129,27 @@
                 <div class=" col-lg-4 ">
                     <div class=" features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 ">
                         <div class=" features-icons-icon d-flex ">
-                            <a href="#!" class=" m-auto text-primary ">
+                            <a href=" " class=" m-auto text-primary ">
                                 <img src=" {{ asset('/blog/img/isos/ISO-26000-RESPONSABILIDAD-SOCIAL-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a>
                             <br>
                         </div>
-                        <h4 style=" color:rgb(0, 55, 70); ">ISO 26000:2010</h4>
-                        <p class=" mb-0 " style=" color:rgb(0, 55, 70); ">RESPONSABILIDAD SOCIAL</p>
+                        <h3 style=" color:rgb(0, 55, 70); ">ISO 26000:2010</h3>
+                        <p class=" lead mb-0 " style=" color:rgb(0, 55, 70); ">RESPONSABILIDAD SOCIAL</p>
                     </div>
                 </div>
                 <div class=" col-lg-4 ">
                     <div class=" features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 ">
                         <div class=" features-icons-icon d-flex ">
-                            <a href="#!" class=" m-auto text-primary ">
+                            <a href=" " class=" m-auto text-primary ">
                                 <img src="
                                     {{ asset('/blog/img/isos/ISO-27001-SISTEMA-DE-GESTION-DE-SEGURIDAD-DE-LA-INFORMACION-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
-                        <h4 style=" color:rgb(0, 55, 70); ">ISO 27001:2018</h4>
-                        <p class=" mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN DE SEGURIDAD DE LA
+                        <h3 style=" color:rgb(0, 55, 70); ">ISO 27001:2018</h3>
+                        <p class=" lead mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN DE SEGURIDAD DE LA
                             INFORMACIÓN
                         </p>
                     </div>
@@ -157,94 +157,94 @@
                 <div class=" col-lg-4 ">
                     <div class=" features-icons-item mx-auto mb-0 mb-lg-3 ">
                         <div class=" features-icons-icon d-flex ">
-                            <a href="#!" class=" m-auto text-primary ">
+                            <a href=" " class=" m-auto text-primary ">
                                 <img src="
                                     {{ asset('/blog/img/isos/ISO-22000-SISTEMA-DE-GESTION-DE-INOCUIDAD-ALIMENTARIA-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
-                        <h4 style=" color:rgb(0, 55, 70); ">ISO 22000:2018</h4>
-                        <p class=" mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN DE INOCUIDAD ALIMENTARIA
+                        <h3 style=" color:rgb(0, 55, 70); ">ISO 22000:2018</h3>
+                        <p class=" lead mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN DE INOCUIDAD ALIMENTARIA
                         </p>
                     </div>
                 </div>
                 <div class=" col-lg-4 ">
                     <div class=" features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 ">
                         <div class=" features-icons-icon d-flex ">
-                            <a href="#!" class=" m-auto text-primary ">
+                            <a href=" " class=" m-auto text-primary ">
                                 <img src="
                                     {{ asset('/blog/img/isos/ISO-14001-SISTEMA-DE-GESTION-MEDIO-AMBIENTAL-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
-                        <h4 style=" color:rgb(0, 55, 70); ">ISO 14001:2015</h4>
-                        <p class=" mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN MEDIO AMBIENTAL</p>
+                        <h3 style=" color:rgb(0, 55, 70); ">ISO 14001:2015</h3>
+                        <p class=" lead mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN MEDIO AMBIENTAL</p>
                     </div>
                 </div>
                 <div class=" col-lg-4 ">
                     <div class=" features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 ">
                         <div class=" features-icons-icon d-flex ">
-                            <a href="#!" class=" m-auto text-primary ">
+                            <a href=" " class=" m-auto text-primary ">
                                 <img src="
                                     {{ asset('/blog/img/isos/ISO-9001-SISTEMA-DE-GESTION-DE-CALIDAD-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
-                        <h4 style=" color:rgb(0, 55, 70); ">ISO 9001:2015</h4>
-                        <p class=" mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN DE CALIDAD</p>
+                        <h3 style=" color:rgb(0, 55, 70); ">ISO 9001:2015</h3>
+                        <p class=" lead mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN DE CALIDAD</p>
                     </div>
                 </div>
                 <div class=" col-lg-4 ">
                     <div class=" features-icons-item mx-auto mb-0 mb-lg-3 ">
                         <div class=" features-icons-icon d-flex ">
-                            <a href="#!" class=" m-auto text-primary ">
+                            <a href=" " class=" m-auto text-primary ">
                                 <img src="
                                     {{ asset('/blog/img/isos/ISO-37001-SISTEMA-DE-GESTION-ANTISOBORNO-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
-                        <h4 style=" color:rgb(0, 55, 70); ">ISO 37001:2016</h4>
-                        <p class=" mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN ANTISOBORNO</p>
+                        <h3 style=" color:rgb(0, 55, 70); ">ISO 37001:2016</h3>
+                        <p class=" lead mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN ANTISOBORNO</p>
                     </div>
                 </div>
                 <div class=" col-lg-4 ">
                     <div class=" features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 ">
                         <div class=" features-icons-icon d-flex ">
-                            <a href="#!" class=" m-auto text-primary ">
+                            <a href=" " class=" m-auto text-primary ">
                                 <img src="
                                     {{ asset('/blog/img/isos/ISO-45001-SISTEMA-DE-SEGURIDAD-Y-SALUD-EN-EL-TRABAJO-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
-                        <h4 style=" color:rgb(0, 55, 70); ">ISO 45001:2018</h4>
-                        <p class=" mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE SEGURIDAD Y SALUD EN EL TRABAJO
+                        <h3 style=" color:rgb(0, 55, 70); ">ISO 45001:2018</h3>
+                        <p class=" lead mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE SEGURIDAD Y SALUD EN EL TRABAJO
                         </p>
                     </div>
                 </div>
                 <div class=" col-lg-4 ">
                     <div class=" features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 ">
                         <div class=" features-icons-icon d-flex ">
-                            <a href="#!" class=" m-auto text-primary ">
+                            <a href=" " class=" m-auto text-primary ">
                                 <img src="
                                     {{ asset('/blog/img/isos/ISO-39001-SISTEMA-DE-GESTION-DE-LA-SEGURIDAD-VIAL-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
-                        <h4 style=" color:rgb(0, 55, 70); ">ISO 39001:2018</h4>
-                        <p class=" mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN DE LA SEGURIDAD VIAL</p>
+                        <h3 style=" color:rgb(0, 55, 70); ">ISO 39001:2018</h3>
+                        <p class=" lead mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN DE LA SEGURIDAD VIAL</p>
                     </div>
                 </div>
                 <div class=" col-lg-4 ">
                     <div class=" features-icons-item mx-auto mb-0 mb-lg-3 ">
                         <div class=" features-icons-icon d-flex ">
-                            <a href="#!" class=" m-auto text-primary ">
+                            <a href=" " class=" m-auto text-primary ">
                                 <img src="
                                     {{ asset('/blog/img/isos/ISO-50001-SISTEMA-DE-GESTION-ENERGETICA-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
-                        <h4 style=" color:rgb(0, 55, 70); ">ISO 50001:2018</h4>
-                        <p class=" mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN ENERGÉTICA</p>
+                        <h3 style=" color:rgb(0, 55, 70); ">ISO 50001:2018</h3>
+                        <p class=" lead mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN ENERGÉTICA</p>
                     </div>
                 </div>
             </div>
