@@ -23,6 +23,9 @@
     <!-- Custom styles for this template -->
     <link href="{{ asset('blog/css/landing-page.css') }}" rel="stylesheet">
 
+    {{-- style propio --}}
+    <link href="{{ asset('blog/css/style.css') }}" rel="stylesheet">
+
 </head>
 
 <body>
@@ -68,12 +71,10 @@
                             SERVICIOS
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{ route('implementacion') }}">Implementación De
-                                <br>Sistemas
-                                De Gestión</a>
-                            <a class="dropdown-item" href="{{ route('auditoria') }}">Auditoria Interna</a>
+                            <a class="dropdown-item" href="{{ route('implementacion') }}">Implementación de <br>sistemas de gestión</a>
+                            <a class="dropdown-item" href="{{ route('auditoria') }}">Auditoria interna</a>
                             <a class="dropdown-item" href="{{ route('capacitacion') }}">Capacitación</a>
-                            <a class="dropdown-item" href="{{ route('cumplimiento') }}">Función De Cumplimiento</a>
+                            <a class="dropdown-item" href="{{ route('cumplimiento') }}">Función de cumplimiento</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown active">
@@ -141,7 +142,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-                    <ul class="list-inline mb-2">
+                    {{-- <ul class="list-inline mb-2">
                         <li class="list-inline-item">
                             <a href="#">About</a>
                         </li>
@@ -157,9 +158,9 @@
                         <li class="list-inline-item">
                             <a href="#">Privacy Policy</a>
                         </li>
-                    </ul>
-                    <p class="text-muted small mb-4 mb-lg-0">&copy; 2021. <a
-                            href="https://ideassoftperu.com">IDEASSOFTPERU</a> All Rights Reserved.</p>
+                    </ul> --}}
+                    <p class=" mb-4 mb-lg-0"> OST CONSULTORES &copy; 2021 Todos los derechos reservados. Desarrollado por <a
+                            href="https://ideassoftperu.com">IDEASSOFTPERU</a>  </p>
                 </div>
                 <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
                     <ul class="list-inline mb-0">
