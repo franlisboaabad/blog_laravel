@@ -185,46 +185,11 @@
                         <p class=" mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN ANTISOBORNO</p>
                     </div>
                 </div>
-                <div class=" col-lg-4 ">
-                    <div class=" features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 ">
-                        <div class=" features-icons-icon d-flex ">
-                            <a href=" " class=" m-auto text-primary ">
-                                <img src="
-                                    {{ asset('/blog/img/isos/ISO-45001-SISTEMA-DE-SEGURIDAD-Y-SALUD-EN-EL-TRABAJO-150x150.png') }} "
-                                    alt=" " style=" width: 100px; height:100px; ">
-                            </a><br>
-                        </div>
-                        <h5 style=" color:rgb(0, 55, 70); ">ISO 45001:2018</h5>
-                        <p class=" mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE SEGURIDAD Y SALUD EN EL TRABAJO
-                        </p>
-                    </div>
-                </div>
-                <div class=" col-lg-4 ">
-                    <div class=" features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 ">
-                        <div class=" features-icons-icon d-flex ">
-                            <a href=" " class=" m-auto text-primary ">
-                                <img src="
-                                    {{ asset('/blog/img/isos/ISO-39001-SISTEMA-DE-GESTION-DE-LA-SEGURIDAD-VIAL-150x150.png') }} "
-                                    alt=" " style=" width: 100px; height:100px; ">
-                            </a><br>
-                        </div>
-                        <h5 style=" color:rgb(0, 55, 70); ">ISO 39001:2018</h5>
-                        <p class=" mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN DE LA SEGURIDAD VIAL</p>
-                    </div>
-                </div>
-                <div class=" col-lg-4 ">
-                    <div class=" features-icons-item mx-auto mb-0 mb-lg-3 ">
-                        <div class=" features-icons-icon d-flex ">
-                            <a href=" " class=" m-auto text-primary ">
-                                <img src="
-                                    {{ asset('/blog/img/isos/ISO-50001-SISTEMA-DE-GESTION-ENERGETICA-150x150.png') }} "
-                                    alt=" " style=" width: 100px; height:100px; ">
-                            </a><br>
-                        </div>
-                        <h5 style=" color:rgb(0, 55, 70); ">ISO 50001:2018</h5>
-                        <p class=" mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN ENERGÉTICA</p>
-                    </div>
-                </div>
+                
+            </div>
+            <div class="service text-center mt-5">
+                <a href="{{ route('normas') }}" class="btn btn-primary" style="background-color: #000080">MÁS
+                    NORMAS</a>
             </div>
         </div>
     </section>
