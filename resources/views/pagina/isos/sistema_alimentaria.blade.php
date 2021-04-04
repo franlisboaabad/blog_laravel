@@ -62,7 +62,8 @@
         </div>
 
         <div class="col-md-4 mb-3">
-           @include('partials.recientes')
+            @includeIf('partials.recientes', ['posts' => $posts ])
         </div>
     </div>
+</div>
     @endsection

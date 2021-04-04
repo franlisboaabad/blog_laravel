@@ -16,20 +16,22 @@
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-md-4 mb-3">
-                        <img src="{{ asset('blog/img/elegirnos/tiempo-ost.png') }}" alt="Mejor tiempo">
+                        <img src="{{ asset('blog/img/elegirnos/tiempo-ost.png') }}" alt="ost-consultores-mejor-tiempo">
                         <h4>Mejor Tiempo</h4>
                         <p class="mb-0">Cumplimos los plazos establecidos.</p>
                     </div>
 
                     <div class="col-md-4 mb-3">
-                        <img src="{{ asset('blog/img/elegirnos/elegirnos-ost.png') }}" alt="Mejor tiempo">
+                        <img src="{{ asset('blog/img/elegirnos/elegirnos-ost.png') }}"
+                            alt="ost-consultores-equipo-especializado">
                         <h4>Equipo especializado</h4>
                         <p class="mb-0">Nuestro equipo de expertos en materia de Normas ISO.</p>
                     </div>
 
 
                     <div class="col-md-4 mb-3">
-                        <img src="{{ asset('blog/img/elegirnos/garantia-ost.png') }}" alt="Mejor tiempo">
+                        <img src="{{ asset('blog/img/elegirnos/garantia-ost.png') }}"
+                            alt="ost-consultores-garantia-resultados">
                         <h4>Garantía de resultados</h4>
                         <p class="mb-0">Aseguramos resultados.</p>
                     </div>
@@ -53,7 +55,9 @@
                         <div class="card-body">
                             <h5 class="card-title">Implementación de Sistemas de Gestión</h5>
                             <p class="card-text text-justify">
-                                En nuestra empresa realizamos el servicio de Implementación de Sistemas de Gestión y nos enfocamos en lograr la certificación que necesita tu empresa. <a href="{{ route('implementacion') }}">Leer mas..</a>.
+                                En nuestra empresa realizamos el servicio de Implementación de Sistemas de Gestión y nos
+                                enfocamos en lograr la certificación que necesita tu empresa. <a
+                                    href="{{ route('implementacion') }}">Leer mas..</a>.
                             </p>
                         </div>
                     </div>
@@ -69,7 +73,8 @@
                                 de Gestión a través de la verificación de la información documentada y su nivel de
                                 implementación
                                 para determinar
-                                <a href="{{ route('auditoria') }}">Leer mas..</a></p>
+                                <a href="{{ route('auditoria') }}">Leer mas..</a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -84,7 +89,8 @@
                                 capacitación se programa en acuerdo con su
                                 organización. Nos adaptamos a su disponibilidad y posibilidades.
                                 A través de la plataforma de ISO´s Teach,
-                                <a href="{{ route('capacitacion') }}">Leer mas..</a></p>
+                                <a href="{{ route('capacitacion') }}">Leer mas..</a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -107,7 +113,7 @@
                 <div class=" col-lg-4 ">
                     <div class=" features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 ">
                         <div class=" features-icons-icon d-flex ">
-                            <a href=" " class=" m-auto text-primary ">
+                            <a href="#!" class=" m-auto text-primary ">
                                 <img src=" {{ asset('/blog/img/isos/ISO-26000-RESPONSABILIDAD-SOCIAL-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a>
@@ -120,9 +126,9 @@
                 <div class=" col-lg-4 ">
                     <div class=" features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 ">
                         <div class=" features-icons-icon d-flex ">
-                            <a href=" " class=" m-auto text-primary ">
+                            <a href="#!" class=" m-auto text-primary ">
                                 <img src="
-                                    {{ asset('/blog/img/isos/ISO-27001-SISTEMA-DE-GESTION-DE-SEGURIDAD-DE-LA-INFORMACION-150x150.png') }} "
+                                            {{ asset('/blog/img/isos/ISO-27001-SISTEMA-DE-GESTION-DE-SEGURIDAD-DE-LA-INFORMACION-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
@@ -135,9 +141,9 @@
                 <div class=" col-lg-4 ">
                     <div class=" features-icons-item mx-auto mb-0 mb-lg-3 ">
                         <div class=" features-icons-icon d-flex ">
-                            <a href=" " class=" m-auto text-primary ">
+                            <a href="#!" class=" m-auto text-primary ">
                                 <img src="
-                                    {{ asset('/blog/img/isos/ISO-22000-SISTEMA-DE-GESTION-DE-INOCUIDAD-ALIMENTARIA-150x150.png') }} "
+                                            {{ asset('/blog/img/isos/ISO-22000-SISTEMA-DE-GESTION-DE-INOCUIDAD-ALIMENTARIA-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
@@ -149,9 +155,9 @@
                 <div class=" col-lg-4 ">
                     <div class=" features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 ">
                         <div class=" features-icons-icon d-flex ">
-                            <a href=" " class=" m-auto text-primary ">
+                            <a href="#!" class=" m-auto text-primary ">
                                 <img src="
-                                    {{ asset('/blog/img/isos/ISO-14001-SISTEMA-DE-GESTION-MEDIO-AMBIENTAL-150x150.png') }} "
+                                            {{ asset('/blog/img/isos/ISO-14001-SISTEMA-DE-GESTION-MEDIO-AMBIENTAL-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
@@ -162,9 +168,9 @@
                 <div class=" col-lg-4 ">
                     <div class=" features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 ">
                         <div class=" features-icons-icon d-flex ">
-                            <a href=" " class=" m-auto text-primary ">
+                            <a href="#!" class=" m-auto text-primary ">
                                 <img src="
-                                    {{ asset('/blog/img/isos/ISO-9001-SISTEMA-DE-GESTION-DE-CALIDAD-150x150.png') }} "
+                                            {{ asset('/blog/img/isos/ISO-9001-SISTEMA-DE-GESTION-DE-CALIDAD-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
@@ -175,9 +181,9 @@
                 <div class=" col-lg-4 ">
                     <div class=" features-icons-item mx-auto mb-0 mb-lg-3 ">
                         <div class=" features-icons-icon d-flex ">
-                            <a href=" " class=" m-auto text-primary ">
+                            <a href="#!" class=" m-auto text-primary ">
                                 <img src="
-                                    {{ asset('/blog/img/isos/ISO-37001-SISTEMA-DE-GESTION-ANTISOBORNO-150x150.png') }} "
+                                            {{ asset('/blog/img/isos/ISO-37001-SISTEMA-DE-GESTION-ANTISOBORNO-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
@@ -185,11 +191,37 @@
                         <p class=" mb-0 " style=" color:rgb(0, 55, 70); ">SISTEMA DE GESTIÓN ANTISOBORNO</p>
                     </div>
                 </div>
-                
+
             </div>
             <div class="service text-center mt-5">
-                <a href="{{ route('normas') }}" class="btn btn-primary" style="background-color: #000080">MÁS
-                    NORMAS</a>
+                <a href="{{ route('normas') }}" class="btn btn-primary" style="background-color: #000080">VER MÁS</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container mt-5 mb-3">
+            <h2 class=" text-center mb-5" style=" color:rgb(0, 55, 70); ">ENTRADAS DE BLOG</h2>
+
+            <div class="blog mt-3">
+                <div class="row">
+                    @forelse($posts as $post)
+                        <div class="col-md-4 mb-3">
+                            <div class="card">
+                                <a href="{{ route('entrada', $post) }}"><img src="{{ $post->get_imagen }}" class="card-img-top" alt="{{ $post->title }}"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ $post->title }}</h5>
+                                    <p class="card-text text-justify"> {{ $post->get_resumen }} </p>
+
+                                    <p> <a href="{{ route('entrada', $post) }}">Leer mas [...]</a> </p>
+                                </div>
+                            </div>
+                        </div>
+                    @empty
+                        <p class="text-center">No hay entradas en el blog</p>
+                    @endforelse
+                </div>
             </div>
         </div>
     </section>
@@ -201,10 +233,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-9 mx-auto">
-                    <h2 class="mb-4">¿Preparado para comenzar? ¡Regístrate ahora!</h2>
+                    <h2 class="mb-4">¿Preparado para comenzar? <a href="{{ route('contacto') }}"
+                            style="color:white">¡Regístrate ahora!</a> </h2>
                 </div>
                 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-                    <form>
+                    {{-- <form method="post" action="{{ route('contacto_email') }}">
+                        @csrf
                         <div class="form-row">
                             <div class="col-12 col-md-9 mb-2 mb-md-0">
                                 <input type="email" class="form-control form-control-lg"
@@ -215,7 +249,7 @@
                                     id="button_register">Registrarse</button>
                             </div>
                         </div>
-                    </form>
+                    </form> --}}
                 </div>
             </div>
         </div>

@@ -58,7 +58,7 @@
         </div>
 
         <div class="col-md-4 mb-3">
-            @include('partials.recientes')
+            @include('partials.recientes', ['posts' => $posts ])
         </div>
     </div>
 </div>

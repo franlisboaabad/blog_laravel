@@ -44,7 +44,8 @@
 
                     <div class="form-group">
                         <label for="">Descripcion</label>
-                        <input type="text" class="form-control" id="description" name="description" value="{{ old('description') }}">
+                        <textarea name="description" id="description" rows="8" required class="form-control"> value="{{ old('description') }}" </textarea>
+                        {{-- <input type="text" class="form-control" id="description" name="description" value="{{ old('description') }}"> --}}
                     </div>
 
                     <div class="form-group">

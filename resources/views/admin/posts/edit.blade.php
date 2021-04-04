@@ -47,7 +47,8 @@
 
                     <div class="form-group">
                         <label for="">Descripcion</label>
-                        <input type="text" class="form-control" id="description" name="description" required value="{{ old('description',$post->description) }}">
+                        {{-- <input type="text" class="form-control" id="description" name="description" required value="{{ old('description',$post->description) }}"> --}}
+                        <textarea name="description" id="description" rows="8" required class="form-control"> {{ old('description',$post->description) }} </textarea>
                     </div>
 
                     <div class="form-group">

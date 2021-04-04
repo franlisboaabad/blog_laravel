@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AdminLTE 2 | Dashboard</title>
+    <title>OST CONSULTORES - @yield('title','Administración')</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
@@ -31,20 +32,21 @@
     {{-- <link rel="stylesheet" href="{{ asset('adminlte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css') }}"> --}}
 
     <!-- DataTables -->
-  <link rel="stylesheet" href="{{ asset('adminlte/plugins/datatables/dataTables.bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('adminlte/plugins/datatables/dataTables.bootstrap.css') }}">
 
 
 </head>
-<body class="hold-transition skin-blue sidebar-mini">
+
+<body class="hold-transition skin-purple sidebar-mini">
     <div class="wrapper">
 
         <header class="main-header">
             <!-- Logo -->
-            <a href="index2.html" class="logo">
+            <a href="#!" class="logo">
                 <!-- mini logo for sidebar mini 50x50 pixels -->
-                <span class="logo-mini"><b>A</b>LT</span>
+                <span class="logo-mini"><b>O</b>ST</span>
                 <!-- logo for regular state and mobile devices -->
-                <span class="logo-lg"><b>Admin</b>LTE</span>
+                <span class="logo-lg"><b> ADMIN </b> </span>
             </a>
             <!-- Header Navbar: style can be found in header.less -->
             <nav class="navbar navbar-static-top">
@@ -58,34 +60,21 @@
 
                         <li class="dropdown user user-menu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <img src="{{ asset('adminlte/img/user2-160x160.jpg') }}" class="user-image" alt="User Image">
+                                <img src="{{ asset('adminlte/img/user2-160x160.jpg') }}" class="user-image"
+                                    alt="User Image">
                                 <span class="hidden-xs"> {{ Auth::user()->name }}</span>
                             </a>
                             <ul class="dropdown-menu">
                                 <!-- User image -->
                                 <li class="user-header">
-                                    <img src="{{ asset('adminlte/img/user2-160x160.jpg') }}" class="img-circle" alt="User Image">
+                                    <img src="{{ asset('adminlte/img/user2-160x160.jpg') }}" class="img-circle"
+                                        alt="User Image">
 
                                     <p>
-                                        {{ Auth::user()->name }} - Web Developer
-                                        <small>Member since Nov. 2012</small>
+                                        {{ Auth::user()->name }} <br> Web Developer
                                     </p>
                                 </li>
-                                <!-- Menu Body -->
-                                <li class="user-body">
-                                    <div class="row">
-                                        <div class="col-xs-4 text-center">
-                                            <a href="#">Followers</a>
-                                        </div>
-                                        <div class="col-xs-4 text-center">
-                                            <a href="#">Sales</a>
-                                        </div>
-                                        <div class="col-xs-4 text-center">
-                                            <a href="#">Friends</a>
-                                        </div>
-                                    </div>
-                                    <!-- /.row -->
-                                </li>
+
                                 <!-- Menu Footer-->
                                 <li class="user-footer">
                                     <div class="pull-left">
@@ -95,7 +84,8 @@
                                         <a class="btn btn-default btn-flat" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">Salir</a>
 
-                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST"
+                                            class="d-none">
                                             @csrf
                                         </form>
 
@@ -127,7 +117,8 @@
                     <div class="input-group">
                         <input type="text" name="q" class="form-control" placeholder="Search...">
                         <span class="input-group-btn">
-                            <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+                            <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i
+                                    class="fa fa-search"></i>
                             </button>
                         </span>
                     </div>
@@ -138,7 +129,7 @@
                     <li class="header">MAIN NAVIGATION</li>
 
 
-                     <li>
+                    <li>
                         <a href="{{ route('home') }}">
                             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                         </a>
@@ -165,7 +156,7 @@
                     </li>
 
 
-                     <li>
+                    <li>
                         <a href="{{ route('index') }}">
                             <i class="fa fa-chrome"></i> <span>Visitar Web</span>
                         </a>
@@ -210,8 +201,8 @@
             <div class="pull-right hidden-xs">
                 <b>Version</b> 1.0
             </div>
-            <strong>Copyright &copy; 2021 <a href="https://ideassoftperu.com">Frank Lisboa Abad</a>.</strong> All rights
-            reserved.
+            <strong>Copyright &copy; 2021 <a href="https://ideassoftperu.com">IDEASSOFTPERU</a>.</strong> Todos los
+            derechos reservados
         </footer>
 
 
@@ -232,14 +223,38 @@
     </script>
     <!-- Bootstrap 3.3.6 -->
     <script src="{{ asset('adminlte/bootstrap/js/bootstrap.min.js') }}"></script>
-    
+
     <!-- AdminLTE App -->
     <script src="{{ asset('adminlte/js/app.min.js') }}"></script>
+
     <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-    <script src="{{ asset('adminlte/js/pages/dashboard.js') }}"></script>
+    {{-- <script src="{{ asset('adminlte/js/pages/dashboard.js') }}"></script> --}}
+
     <!-- AdminLTE for demo purposes -->
     <script src="{{ asset('adminlte/js/demo.js') }}"></script>
 
+    <!-- DataTables -->
+    <script src="{{ asset('adminlte/plugins/datatables/jquery.dataTables.min.js') }}"></script>
+    <script src="{{ asset('adminlte/plugins/datatables/dataTables.bootstrap.min.js') }}"></script>
+
     @yield('js')
+
+    <script>
+        $('#example2').DataTable()
+        // $(function() {
+            
+        //     $('#example2').DataTable({
+        //         'paging': true,
+        //         'lengthChange': false,
+        //         'searching': false,
+        //         'ordering': true,
+        //         'info': true,
+        //         'autoWidth': false
+        //     })
+        // });
+
+    </script>
+
 </body>
+
 </html>

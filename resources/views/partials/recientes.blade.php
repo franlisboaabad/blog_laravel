@@ -3,11 +3,15 @@
      <div class="card-body">
          <h5 class="card-title">Noticias recientes</h5>
          <nav>
-             <ul>
-                 <li><a href="">Los 5 beneficios de implementar un SIG en tu organización</a></li>
-                 <li><a href="">ISO 14001: Gestión Ambiental en la organización </a></li>
-                 <li><a href="">EMPRESA SEGUREA, LIBRE DE VIOLENCIA Y DISCRIMINACIÓN CONTRA LA MUJER</a></li>
-             </ul>
+             <ol>
+                 @forelse($posts as $post)
+                     <li class="mb-3"> <a href="{{ route('entrada', $post) }}">
+                        <p class="text-justify">{{ $post->title }}</p>
+                    </a> </li>
+                 @empty
+                     <p>No existen entradas recientes</p>
+                 @endforelse
+             </ol>
          </nav>
      </div>
 

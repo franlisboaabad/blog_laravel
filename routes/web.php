@@ -28,6 +28,9 @@ Route::get('/servicios','PageController@servicios')->name('servicios');
 Route::get('/normas','PageController@normas')->name('normas');
 Route::get('/contacto','PageController@contacto')->name('contacto');
 
+// email formulario contacto 
+Route::post('/contactar', 'PageController@contacto_email')->name('contacto_email');
+    
 
 //pag normas 
 Route::get('/normas/responsabilidad_social','PageController@responsabilidad_social')->name('responsabilidad_social');
@@ -56,7 +59,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 //administración 
-
 
 Route::resource('posts', 'PostController');
 Route::resource('categories', 'CategoryController');
