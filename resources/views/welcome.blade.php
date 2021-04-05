@@ -57,7 +57,7 @@
                             <p class="card-text text-justify">
                                 En nuestra empresa realizamos el servicio de Implementación de Sistemas de Gestión y nos
                                 enfocamos en lograr la certificación que necesita tu empresa. <a
-                                    href="{{ route('implementacion') }}">Leer mas..</a>.
+                                    href="{{ route('implementacion') }}">Leer más [...]</a>.
                             </p>
                         </div>
                     </div>
@@ -73,7 +73,7 @@
                                 de Gestión a través de la verificación de la información documentada y su nivel de
                                 implementación
                                 para determinar
-                                <a href="{{ route('auditoria') }}">Leer mas..</a>
+                                <a href="{{ route('auditoria') }}">Leer más [...]</a>
                             </p>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                                 capacitación se programa en acuerdo con su
                                 organización. Nos adaptamos a su disponibilidad y posibilidades.
                                 A través de la plataforma de ISO´s Teach,
-                                <a href="{{ route('capacitacion') }}">Leer mas..</a>
+                                <a href="{{ route('capacitacion') }}">Leer más [...]</a>
                             </p>
                         </div>
                     </div>
@@ -214,7 +214,7 @@
                                     <h5 class="card-title">{{ $post->title }}</h5>
                                     <p class="card-text text-justify"> {{ $post->get_resumen }} </p>
 
-                                    <p> <a href="{{ route('entrada', $post) }}">Leer mas [...]</a> </p>
+                                    <p> <a href="{{ route('entrada', $post) }}">Leer más [...]</a> </p>
                                 </div>
                             </div>
                         </div>
@@ -222,6 +222,8 @@
                         <p class="text-center">No hay entradas en el blog</p>
                     @endforelse
                 </div>
+                <div class="service text-center mt-5">
+                    <a href="{{ route('entradas') }}" class="btn btn-primary" style="background-color: #000080">VER MÁS ENTRADAS</a></div>
             </div>
         </div>
     </section>
