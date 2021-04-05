@@ -65,6 +65,7 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="{{ route('nosotros') }}"> NOSOTROS </a>
                     </li>
+                    
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="{{ route('servicios') }}" id="navbarDropdown"
                             role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -107,6 +108,9 @@
                                 50001:2018<br>SISTEMA
                                 DE GESTIÓN <br>ENERGÉTICA</a>
                         </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{{ route('entradas') }}"> BLOG </a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="{{ route('contacto') }}">CONTACTO</a>
