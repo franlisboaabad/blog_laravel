@@ -25,7 +25,7 @@
             </div>
 
             <div class="slide">
-                <img src="{{asset('turismo/images/slider/manglares.jpg')}}" alt class="slider-bg">
+                <img src="{{asset('turismo/images/slider/naturaleza.jpg')}}" alt class="slider-bg">
                 <div class="container">
                     <div class="row">
                         <div class="col col-lg-7 col-sm-10 slide-caption" id="caption">
