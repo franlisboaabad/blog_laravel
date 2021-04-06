@@ -1,10 +1,9 @@
 @extends('layouts.page')
-@section('title','CONSULTORÍA, INGENIERÍA Y SUPERVISIÓN DE OBRAS')
+@section('title','Agencia de viajes y turismo')
 <style>
     #caption{
        margin-bottom: 250px;
     }
-
 </style>
 @section('contenido')
 

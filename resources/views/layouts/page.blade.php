@@ -7,25 +7,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="IDEASSOFT PERÚ">
-    <link rel="shortcut icon" type="image/ico" href="{{ asset('turismo/images/logo-nefasac.png') }}" />
+    <link rel="shortcut icon" type="image/ico" href="#" />
 
-    <meta property="og:url"           content="https://www.nefasasac.com/" />
-    <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="NEFASA SAC  - CONSULTORÍA, INGENIERÍA Y SUPERVISIÓN DE OBRAS" />
-    <meta property="og:description"   content="NEFASA SAC  - CONSULTORÍA, INGENIERÍA Y SUPERVISIÓN DE OBRAS" />
-    <meta property="og:image"         content="{{ asset('turismo/images/slider/ingeniero-01.jpg') }}" />
+    <meta property="og:url" content="#" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="#" />
+    <meta property="og:description" content="#" />
+    <meta property="og:image" content="#" />
 
-    <meta name="keywords" content="NEFASA SAC, es una empresa de Ingeniería de Consulta con presencia nacional e internacional, dedicada a prestar servicios integrales en Ingeniería y otros servicios: Estructuraciones, Estudios, Diseños, Supervisión, Gerencia de Proyectos y Asesorías. Generamos valor agregado en las soluciones que ofrecemos a nuestros clientes del sector público y privado, apoyados esencialmente con nuestro equipo humano multidisciplinario y altamente calificado, aplicando los más altos valores de rectitud, honestidad y Responsabilidad Social.">
-
-
+    <meta name="keywords" content="">
 
     <!-- Page Title -->
-    <title>NEFASAC - @yield('title')</title>
+    <title>PIURA TRIPS - @yield('title')</title>
+
 
     <!-- Icon fonts -->
     <link href="{{ asset('turismo/css/font-awesome.min.css') }}" rel="stylesheet">
 
     <link href="{{ asset('turismo/css/app.css') }}" rel="stylesheet">
+
+    <link href="{{ asset('turismo/css/style.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -53,7 +54,7 @@
                         <div class="col col-sm-5">
                             <div class="contact-info">
                                 <ul>
-                                    <li><i class="fa fa-envelope"></i> informes@nefasasac.com</li>
+                                    <li><i class="fa fa-envelope"></i> <a href="mailto:informes@piuratrips.com" style="color:white">informes@piuratrips.com</a> </li>
                                 </ul>
                             </div>
                         </div>
@@ -61,7 +62,7 @@
                             <div class="social-contact-info-right">
                                 <div class="social">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/nefasa.sac" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="https://www.facebook.com/Piuratrips" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                         <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                                         <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
@@ -70,7 +71,7 @@
                                 </div>
                                 <div class="contact-info-right">
                                     <ul>
-                                        <li><span>PE:</span> +51 944 399 365</li>
+                                        <li><span>PE:</span> +51 951 411 377</li>
                                     </ul>
                                 </div>
                             </div>
@@ -130,10 +131,10 @@
             <div class="upper-footer">
                 <div class="container">
                     <div class="row">
-                        <div class="col col-md-3 col-sm-6">
+                        <div class="col col-md-6 col-sm-6">
                             <div class="widget about-widget">
                                 <div class="footer-logo"><img src="{{asset('images/logo-nefasac.png')}}" alt></div>
-                                <p class="text-justify">NEFASA SAC es una compañía Peruana fundada en 2008 dedicada a prestar servicios de Consultoría Integral </p>
+                                <p class="text-justify">Agencia de Viajes y Tour Operadora en la ciudad de Piura - Perú, ofrecemos servicios personalizados para vivir la mejor experiencia en viajes y turismo</p>
                                 <ul class="contact-info">
                                     <li><i class="fa fa-phone"></i> +51 944 399 365</li>
                                     <li><i class="fa fa-clock-o"></i> Horario : <br>Lunes - Viernes (9 am - 8 pm)</li>
@@ -143,7 +144,7 @@
 
                         <div class="col col-md-3 col-sm-6">
                             <div class="widget recent-post-widget">
-                                <h3>Sede Trujillo</h3>
+                                <h4>UBICACIÓN</h4>
                                 <ul>
                                     <li>
                                         <div class="entry-details">
@@ -169,7 +170,7 @@
                             </div>
                         </div>
 
-                        <div class="col col-md-3 col-sm-6">
+                        {{-- <div class="col col-md-3 col-sm-6">
                             <div class="widget newsletter-widget">
                                 <h3>Subscribirse</h3>
                                 <p>Escribase a nuestro boletín semanal, Nefasa SAC.</p>
@@ -182,17 +183,17 @@
                                     </form>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
 
                     </div>
                 </div>
             </div> <!-- end upper-footer -->
             <div class="copyright-info">
                 <div class="container">
-                    <p>2019 &copy; Todos los derechos reservados <a href="https://www.facebook.com/nefasa.sac" target="_blank">NEFASA - SAC - CONSULTORES</a></p>
+                    <p>2021 &copy; Todos los derechos reservados <a href="https://www.facebook.com/Piuratrips" target="_blank">PIURA TRIPS - Agencia de viajes y turismo.</a></p>
                     <ul>
-                        <li><a href="#">Privacy</a></li>
-                        <li><a href="#">Terms</a></li>
+                        {{-- <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li> --}}
                         <li><a href="https://www.facebook.com/ideassoftperu/" target="_blank">Desarrollado por IDEASSOFT PERÚ</a></li>
                     </ul>
                 </div>
@@ -201,9 +202,9 @@
         <!-- end site-footer -->
 
         <div style="position:fixed;z-index:900;bottom:90px;right:14px">
-                <div style="width:70px;height:70px;float:left;overflow:hidden">
-                    <a href="https://api.whatsapp.com/send?phone=51944399365&amp;text=Hola,escribo desde su sitio web y me gustaria tener un poco más de informacion sobre sus servicios" target="_blank"><img src="turismo/images/wpp.png" class="img-fluid"></a>
-                </div>
+            <div style="width:70px;height:70px;float:left;overflow:hidden">
+                <a href="https://wa.link/72g4hd" target="_blank"><img src="turismo/images/wpp.png" class="img-fluid"></a>
+            </div>
         </div>
 
     </div>

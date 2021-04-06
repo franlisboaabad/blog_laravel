@@ -1,54 +1,61 @@
 @extends('layouts.page')
-@section('title','contacto')
-    
+@section('title','Contacto')
+
 @section('contenido')
-    <section>
-        
-    <div class="main">
-                <div class="container my-5">
-                    <h3 class="text-center text-danger">Contáctanos</h3>
-        
-                    <div class="row pt-3">
-                        <div class="col-md-6 mb-3">
-                            <p>Para ponerse en contácto con uno de nuestros representantes, debe llenar todos los campos del formulario.</p>
-                            <form method="post" id="formulario">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" placeholder="Nombres y Apellidos*">
-                                </div>
-        
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="email" placeholder="Correo electronico*">
-                                </div>
-        
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="phone" placeholder="Celular*">
-                                </div>
-        
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="title" placeholder="Título de mensaje*">
-                                </div>
-        
-                                <div class="form-group">
-                                    <textarea class="form-control" id="message" rows="6" placeholder="Escribir mensaje..."></textarea>
-                                </div>
-        
-                                <button type="submit" class="btn btn-success" id="send_email"> <i class="fa fa-send"></i> Enviar mensaje</button>
-                            </form>
-                            <div class="respuesta">
-                                <!-- respuesta de formulario -->
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.2735693862946!2d-79.60637208523497!3d-5.375191596101137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904ac71314449105%3A0xf3311609e767e75c!2sMonacheco%20Tours!5e0!3m2!1ses!2spe!4v1613101584654!5m2!1ses!2spe" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                    
-                        </div>
+
+
+<div class="main" style="margin-bottom: 50px">
+    <div class="container my-5">
+        <h3 class="text-center" style="color:green">Piura Trips - Contáctanos</h3>
+
+        <div class="row" style="margin-top: 50px">
+            <div class="col-md-7 mb-3">
+                <p>Para ponerse en contácto con uno de nuestros representantes, debe llenar todos los campos del formulario.</p>
+
+                <form action="" method="POST">
+
+                    <div class="form-group">
+                        <label for="">Ingrese su Nombre y Apellido</label>
+                        <input type="text" name="nombres" class="form-control" required>
                     </div>
-                </div>
+                    <div class="form-group">
+                        <label for="">Ingrese su email</label>
+                        <input type="email" name="email" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Número de celular</label>
+                        <input type="number" name="celular" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Titulo</label>
+                        <input type="text" name="titulo" class="form-control" required>
+                    </div>
+
+                      <div class="form-group">
+                        <label for="">Mensaje</label>
+                        <textarea name="mensaje" rows="10" class="form-control" required>  </textarea>
+                    </div>
+
+
+                    <div class="form-group">
+                        @csrf
+                        <button class="btn btn-success" style="width:200px">ENVIAR MENSAJE</button>
+                    </div>
+                </form>
             </div>
-            
-       
-       
-        
-        
-    </section>
-    @endsection
+            <div class="col-md-5 mb-3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31786.8072263826!2d-80.65015808217012!3d-5.207428308171303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904a109f58eccde9%3A0xa351073a40527404!2sAv.%20Miguel%20Grau%201802-1852%2C%20Piura%2020003!5e0!3m2!1ses-419!2spe!4v1617674723374!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                <p>informes@piuratrips.com <br> piuratrips@gmail.com <br>
+                PE: +51 951 411 377  <br>   <a href="https://www.facebook.com/Piuratrips" target="_blank"> Visita nuestro fanpage</a>  </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+@endsection
