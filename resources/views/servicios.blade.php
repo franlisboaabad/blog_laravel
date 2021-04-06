@@ -5,7 +5,7 @@
     <section>
         <div class="main">
             <div class="container my-5">
-                <h3 class="text-center text-danger">Monacheo Tours - Servicios</h3>
+                <h3 class="text-center text-danger">Piura trips - Servicios</h3>
                 <div class="row pt-3">
     
                     <div class="col-md-4 mb-3 ">

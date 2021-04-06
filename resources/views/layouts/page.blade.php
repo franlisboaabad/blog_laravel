@@ -63,15 +63,15 @@
                                 <div class="social">
                                     <ul>
                                         <li><a href="https://www.facebook.com/Piuratrips" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        <li><a href="https://www.instagram.com/piuratrips/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="https://www.youtube.com/channel/UCNd73Ot0X1OlgysGJ3juCzw " target="_blank"><i class="fa fa-youtube-square"></i></a></li>
+                                       {{--  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-rss"></i></a></li> --}}
                                     </ul>
                                 </div>
                                 <div class="contact-info-right">
                                     <ul>
-                                        <li><span>PE:</span> +51 951 411 377</li>
+                                        <li><span>PE:</span> +51 951 411 377 / Oficina: (073)618842</li>
                                     </ul>
                                 </div>
                             </div>
@@ -88,21 +88,20 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#"><img src="{{asset('turismo/images/logo-nefasac.png')}}" alt></a>
+                        </button> 
+                        <a class="navbar-brand" href="#"><img src="{{asset('turismo/images/logo.png')}}" style="width: 5rem; height:5rem;" alt></a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
                         <button class="close-navbar"><i class="fa fa-close"></i></button>
                         <ul class="nav navbar-nav">
                             <li><a href="/">INICIO</a></li>
-
-                            <li><a href="{{ route('nosotros') }}">NOSOTROS</a></li>
+                            <li><a href="{{route('nosotros') }}">NOSOTROS</a></li>
                             <li><a href="{{route('servicios')}}">SERVICIOS</a></li>
                             <li><a href="{{route('portafolio')}}">PORTAFOLIO</a></li>
                             <li><a href="{{route('contacto')}}">CONTACTO</a></li>
                         </ul>
                     </div><!-- end of nav-collapse -->
-
+              
                     <div class="header-search-area">
                         <button type="submit" class="btn"><i class="fa fa-search"></i></button>
                         <div class="header-search-form">
@@ -133,10 +132,10 @@
                     <div class="row">
                         <div class="col col-md-6 col-sm-6">
                             <div class="widget about-widget">
-                                <div class="footer-logo"><img src="{{asset('images/logo-nefasac.png')}}" alt></div>
+                                <div class="footer-logo"><img src="{{asset('turismo/images/logo.png')}}" style="width: 5rem; height:5rem;" alt></div>
                                 <p class="text-justify">Agencia de Viajes y Tour Operadora en la ciudad de Piura - Perú, ofrecemos servicios personalizados para vivir la mejor experiencia en viajes y turismo</p>
                                 <ul class="contact-info">
-                                    <li><i class="fa fa-phone"></i> +51 944 399 365</li>
+                                    <li><i class="fa fa-phone"></i> +51 951 411 377</li>
                                     <li><i class="fa fa-clock-o"></i> Horario : <br>Lunes - Viernes (9 am - 8 pm)</li>
                                 </ul>
                             </div>
@@ -148,8 +147,8 @@
                                 <ul>
                                     <li>
                                         <div class="entry-details">
-                                            <h4 class="text-justify"><a href="#">Avenida Nicolás de Piérola 724 Urb. Primavera - Trujillo </a></h4>
-                                            <span class="date">La Libertad</span>
+                                            <h4 class="text-justify"><a href="#">Conj. Hab. Villa California – Interior A- 1, Castilla.</a></h4>
+                                            <span class="date">Piura</span>
                                         </div>
                                     </li>
                                 </ul>
@@ -161,11 +160,11 @@
                                 <h3>Links rápidos</h3>
                                 <ul>
                                     <li><a href="/">Inicio</a></li>
-                                    <li><a href="#!">Nosotros</a></li>
-                                    <li><a href="#!">Servicios</a></li>
-                                    <li><a href="#!">Portafolio</a></li>
-                                    <li><a href="#!">Proyectos</a></li>
-                                    <li><a href="#!">Contacto</a></li>
+                                    <li><a href="{{route('nosotros') }}">Nosotros</a></li>
+                                    <li><a href="{{route('servicios') }}">Servicios</a></li>
+                                    <li><a href="{{route('portafolio') }}">Portafolio</a></li>
+                                    {{-- <li><a href="#!">Proyectos</a></li> --}}
+                                    <li><a href="{{route('contacto') }}">Contacto</a></li>
                                 </ul>
                             </div>
                         </div>

@@ -11,29 +11,29 @@
     <section class="hero hero-slider-wrapper hero-style-2">
         <div class="hero-slider">
             <div class="slide">
-                <img src="{{asset('turismo/images/slider/ingeniero-01.jpg')}}" alt class="slider-bg">
+                <img src="{{asset('turismo/images/slider/playa.jpg')}}" alt class="slider-bg">
                 <div class="container">
                     <div class="row">
-                        <div class="col col-lg-7 col-sm-10 slide-caption" id="caption">
-                            <h3 style="color:white;">SERVICIOS ESPECIALIZADOS EN INGENIERÍA</h3>
-                            <p >Soluciones integrales de ingeniería para todos los sectores públicos y privados. Estudios y Diseños; Supervisión; Asesorías; Gerencia de Proyectos</p>
-                            <a href="#!" class="theme-btn">Nuestro servicios</a>
-                            <a href="#!" class="theme-btn">Contáctanos</a>
+                        <div class="col col-lg-7 col-sm-10 slide-caption" id="caption" >
+                            <h3 style="color:white;">PIURA TRIPS</h3>
+                            <p  style="color:white;">Les da la bienvenida al mundo de los viajes y el turismo en la ciudad del eterno calor, nuestra experiencia combinada en el sector turístico nos permite hacer realidad tu viaje soñado.</p>
+                            <a href="{{route('servicios') }}" class="theme-btn">Nuestro servicios</a>
+                            <a href="{{route('contacto') }}" class="theme-btn">Contáctanos</a>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="slide">
-                <img src="{{asset('turismo/images/slider/slider-constuct-a.jpg')}}" alt class="slider-bg">
+                <img src="{{asset('turismo/images/slider/manglares.jpg')}}" alt class="slider-bg">
                 <div class="container">
                     <div class="row">
                         <div class="col col-lg-7 col-sm-10 slide-caption" id="caption">
-                                <h3 style="color:white;">EJECUCIÓN DE OBRAS</h3>
-                                <p style="color:white;">Rehabilitación, construcción, ampliación e implementación de obras para entidades publicas y privadas.</p>
+                                <h3 style="color:white;">NUESTROS SERVICIOS</h3>
+                                <p style="color:white;">Incluyen vijajes por distintas partes del Perú, contáctanos y disfruta de un viaje de ensueño.</p>
                             <br>
-                            <a href="#!" class="theme-btn">Nuestro servicios</a>
-                            <a href="#!" class="theme-btn">Contáctanos</a>
+                            <a href="{{route('servicios') }}" class="theme-btn">Nuestro servicios</a>
+                            <a href="{{route('contacto') }}" class="theme-btn">Contáctanos</a>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
     </section>
     <!-- end of hero slider -->
 
-
+{{-- 
        <!-- start services-section-s2 -->
        <section class="services-section-s2 section-padding">
         <div class="container">
@@ -119,7 +119,7 @@
             </div>
 
         </div> <!-- end container -->
-    </section>
+    </section> --}}
     <!-- end services-section-s2 -->
 
     <!-- start why-choose-us-section -->
@@ -129,7 +129,7 @@
                 <div class="col col-lg-3 col-md-4">
                     <div class="section-title-s3">
                         <h2>Porqué deberías elegirnos</h2>
-                        <p>"Somos el aliado confiable que garantiza el éxito de sus proyectos"</p>
+                        <p>"Somos el aliado confiable que garantiza una experiencia inolvidable junto a los tuyos."</p>
                         <a href="#!" class="read-more">Más información</a>
                     </div>
                 </div>
@@ -140,16 +140,16 @@
                                 <i class="fi flaticon-businessman"></i>
                             </div>
                             <h3 class="text-center">Equipo profesional</h3>
-                            <p>Contamos con equipo apto, para brindar soluciones a cada proyecto solicitado.</p>
+                            <p>Contamos con equipo apto, para brindar el mejor servicio, y sobre todo para cubrir tus espectativas.</p>
                         </div>
                         <div class="grid">
                             <div class="icon">
                                 <i class="fi flaticon-idea"></i>
                             </div>
-                            <h3 class="text-center">Ayuda al cliente 24/7</h3>
-                            <p>Atención al cliente los 24 / 7, contáctanos ahora, no esperes más.</p>
+                            <h3 class="text-center">Atención al cliente 24/7</h3>
+                            <p>Estamos para asesorarte, gestionar y diseñar paquetes turísticos al alcance de tus bolsillos, haciendo de tu viaje soñado la mejor experiencia.</p>
                         </div>
-                        <div class="grid">
+                        {{-- <div class="grid">
                             <div class="icon">
                                 <i class="fi flaticon-salary"></i>
                             </div>
@@ -162,7 +162,7 @@
                             </div>
                             <h3 class="text-center">Soluciones Integrales e inmediatas</h3>
                             <p>Soluciones a medida, para cada proyecto solicitado por nuestros clientes.</p>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -178,7 +178,7 @@
             <div class="row">
                 <div class="col col-md-5">
                     <div class="section-title-s2">
-                        <h2>Servicios profesionales</h2>
+                        <h2>Servicios</h2>
                     </div>
                 </div>
             </div>
@@ -212,6 +212,9 @@
                     </div>
                 </div>
             </div>
+            <div class="ver-mas text-center">
+                <a class="theme-btn" href="{{route('servicios')}}">MÁS SERVICIOS</a>
+            </div>
         </div> <!-- end container -->
     </section>
     <!-- end case-studies-section -->
@@ -224,21 +227,21 @@
                 <div class="row">
                     <div class="col col-md-5">
                         <div >
-                            <h2>PRESENCIA LATAM</h2>
-                            <p class="text-justify">NEFASA S.A.C, aprovechando su experiencia en la Gestión Integral y exitosa de más de 530 Proyectos, ha logrado trasladar su conocimiento a diferentes países en Latinoamérica, contando hoy con presencia activa en varios de ellos y con la constante intención de ampliar su participación en el mercado latinoaméricano.</p>
+                            <h2>CONOCIENDO NUESTRO PERÚ</h2>
+                            <p class="text-justify">PIURA TRIPS, aprovechando todas las maravillas turisticas que tiene nuestro Perú, brindamos los mejores paquetes turísticos personalizados, ven y disfruta de una maravillosa experiencia.</p>
                             <ul>
-                                <li><b>1.</b> Colombia.</li>
-                                <li><b>2.</b> Perú.</li>
-                                <li><b>3.</b> Paraguay.</li>
-                                <li><b>4.</b> Panamá.</li>
-                                <li><b>5.</b> Honduras.</li>
-                                <li><b>6.</b> Bolivia.</li>
-                                <li><b>7.</b> República Dominicana.</li>
+                                <li><b>1.</b> TALARA.</li>
+                                <li><b>2.</b> MÁNCORA.</li>
+                                <li><b>3.</b> CANCHAQUE.</li>
+                                <li><b>4.</b> AYABACA.</li>
+                                <li><b>5.</b> TUMBES.</li>
+                                <li><b>6.</b> CAJAMARCA.</li>
+                                <li><b>7.</b> ENTRE OTROS.</li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-7">
-                    <img src="{{asset('turismo/images/latam.png')}}" alt="">
+                    <img src="{{asset('turismo/images/mapa.png')}}" alt="">
                     </div>
                 </div>
         </div>
@@ -247,7 +250,7 @@
     <hr>
 
          <!-- start testimonials-partners-section -->
- <section class="testimonials-partners-section section-padding">
+ {{-- <section class="testimonials-partners-section section-padding">
     <div class="container">
         <div class="row">
             <div class="col col-lg-6 col-md-6">
@@ -319,7 +322,7 @@
             </div>
         </div>
     </div> <!-- end container -->
-</section>
+</section> --}}
 <!-- end testimonials-partners-section -->
 
 
