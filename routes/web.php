@@ -27,6 +27,17 @@ Route::get('servicios','PageController@servicios')->name('servicios');
 Route::get('portafolio','PageController@portafolio')->name('portafolio');
 Route::get('contacto','PageController@contacto')->name('contacto');
 
+// rutas portfolio
+
+Route::get('/portafolio/tortugas', 'PageController@tortugas')->name('tortugas');
+Route::get('/portafolio/manglares', 'PageController@manglares')->name('manglares');
+Route::get('/portafolio/caracucho', 'PageController@caracucho')->name('caracucho');
+
+// email formulario contacto 
+Route::post('/contactar', 'PageController@contacto_email')->name('contacto_email');
+
+
+// blog 
 
 Route::get('/entrada/{id}','PageController@post')->name('entrada');
 Route::get('/entradas','PageController@posts')->name('entradas');

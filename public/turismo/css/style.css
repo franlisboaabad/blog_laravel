@@ -16,6 +16,15 @@
 }
 
 
+/* slider */
+
+.hero-style-1, .hero-style-2, .hero-style-3 {
+  height: 500px !important;
+}
+
+
+
+
 /* footer */
 
 .site-footer .upper-footer {
@@ -110,3 +119,85 @@
       -webkit-transform: translateY(-15px);
       transform: translateY(-15px);
       background: #F5B041; } }
+
+
+
+/* card */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.card-body {
+  padding: 20px;
+}
+
+/* parallax */
+.parallax {
+  background-image: url(../images/slider/parallax-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  height: 70vh;
+}
+
+
+.upper-footer{
+  height: 300px !important;
+}
+
+
+/* dispositivo movil */
+
+@media (max-width: 991px){
+
+  .header-style-2 .navbar, .header-style-3 .navbar {
+      min-height: 100px !important;
+  }
+
+    .site-header .navbar-header button {
+      background-color: #f5b041;
+      width: 40px;
+      height: 35px;
+      border: 0;
+      padding: 5px 10px;
+      border-radius: 3px;
+      outline: 0;
+      position: absolute;
+      right: 15px;
+      top: 12px;
+      z-index: 20;
+  }
+
+    .site-header #navbar .close-navbar {
+      background-color: #009688;
+      width: 35px;
+      height: 35px;
+      color: #fff;
+      border: 0;
+      border-radius: 50%;
+      outline: none;
+      position: absolute;
+      left: -18px;
+      top: 10px;
+      z-index: 20;
+  }
+
+
+  .social {
+      float: none;
+      margin-left: 100px !important;
+  }
+
+  .navbar-brand{
+    margin-top: 10px !important;
+  }
+
+}
+

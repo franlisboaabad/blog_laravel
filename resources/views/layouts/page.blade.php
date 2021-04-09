@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="IDEASSOFT PERÚ">
-    <link rel="shortcut icon" type="image/ico" href="#" />
+    <link rel="icon" href="{{asset('turismo/images/logo.png')}}">
+    <link rel="shortcut icon" type="image/ico" href="{{asset('turismo/images/logo.png')}}" />
 
     <meta property="og:url" content="#" />
     <meta property="og:type" content="website" />
@@ -27,6 +28,12 @@
     <link href="{{ asset('turismo/css/app.css') }}" rel="stylesheet">
 
     <link href="{{ asset('turismo/css/style.css') }}" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
+
+    {{-- facebook --}}
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v10.0" nonce="nbPw50Vh"></script>
 </head>
 
 <body>
@@ -65,13 +72,13 @@
                                         <li><a href="https://www.facebook.com/Piuratrips" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                         <li><a href="https://www.instagram.com/piuratrips/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                                         <li><a href="https://www.youtube.com/channel/UCNd73Ot0X1OlgysGJ3juCzw " target="_blank"><i class="fa fa-youtube-square"></i></a></li>
-                                       {{--  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        {{-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                                         <li><a href="#"><i class="fa fa-rss"></i></a></li> --}}
                                     </ul>
                                 </div>
                                 <div class="contact-info-right">
                                     <ul>
-                                        <li><span>PE:</span> +51 951 411 377 / Oficina: (073)618842</li>
+                                        <li><span>PE:</span> +51 951 411 377 / Oficina: (073) - 618842</li>
                                     </ul>
                                 </div>
                             </div>
@@ -88,8 +95,8 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
-                        </button> 
-                        <a class="navbar-brand" href="#"><img src="{{asset('turismo/images/logo.png')}}" style="width: 5rem; height:5rem;" alt></a>
+                        </button>
+                        <a class="navbar-brand" href="/"><img src="{{asset('turismo/images/logo.png')}}" style="width: 100px; height: auto; margin-top: -30px;" alt="logo-piuratrips"></a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
                         <button class="close-navbar"><i class="fa fa-close"></i></button>
@@ -101,7 +108,7 @@
                             <li><a href="{{route('contacto')}}">CONTACTO</a></li>
                         </ul>
                     </div><!-- end of nav-collapse -->
-              
+
                     <div class="header-search-area">
                         <button type="submit" class="btn"><i class="fa fa-search"></i></button>
                         <div class="header-search-form">
@@ -130,63 +137,36 @@
             <div class="upper-footer">
                 <div class="container">
                     <div class="row">
-                        <div class="col col-md-6 col-sm-6">
-                            <div class="widget about-widget">
-                                <div class="footer-logo"><img src="{{asset('turismo/images/logo.png')}}" style="width: 5rem; height:5rem;" alt></div>
-                                <p class="text-justify">Agencia de Viajes y Tour Operadora en la ciudad de Piura - Perú, ofrecemos servicios personalizados para vivir la mejor experiencia en viajes y turismo</p>
-                                <ul class="contact-info">
-                                    <li><i class="fa fa-phone"></i> +51 951 411 377</li>
-                                    <li><i class="fa fa-clock-o"></i> Horario : <br>Lunes - Viernes (9 am - 8 pm)</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="col col-md-3 col-sm-6">
+                        <div class="col col-md-5 col-sm-6">
                             <div class="widget recent-post-widget">
-                                <h4>UBICACIÓN</h4>
-                                <ul>
-                                    <li>
-                                        <div class="entry-details">
-                                            <h4 class="text-justify"><a href="#">Conj. Hab. Villa California – Interior A- 1, Castilla.</a></h4>
-                                            <span class="date">Piura</span>
-                                        </div>
-                                    </li>
-                                </ul>
+                                <p class="text-justify">Agencia de Viajes y Tour Operadora en la ciudad de Piura - Perú, ofrecemos servicios personalizados para vivir la mejor experiencia en viajes y turismo</p>
+
                             </div>
                         </div>
 
-                        <div class="col col-md-3 col-sm-6">
+                        <div class="col col-md-5 col-sm-6">
+                            <div class="widget recent-post-widget">
+                                <p>
+                                    <i class="fa fa-cube"></i>  informes@piuratrips.com <br>
+                                    <i class="fa fa-phone"></i>  +51 951 411 377 <br>
+                                    <i class="fa fa-map-marker"></i> Conj. Hab. Villa California – Interior A- 1, Castilla.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col col-md-2 col-sm-6">
                             <div class="widget quick-links-widget">
-                                <h3>Links rápidos</h3>
-                                <ul>
-                                    <li><a href="/">Inicio</a></li>
-                                    <li><a href="{{route('nosotros') }}">Nosotros</a></li>
-                                    <li><a href="{{route('servicios') }}">Servicios</a></li>
-                                    <li><a href="{{route('portafolio') }}">Portafolio</a></li>
-                                    {{-- <li><a href="#!">Proyectos</a></li> --}}
-                                    <li><a href="{{route('contacto') }}">Contacto</a></li>
-                                </ul>
+
                             </div>
                         </div>
 
-                        {{-- <div class="col col-md-3 col-sm-6">
-                            <div class="widget newsletter-widget">
-                                <h3>Subscribirse</h3>
-                                <p>Escribase a nuestro boletín semanal, Nefasa SAC.</p>
-                                <div class="newsletter-form">
-                                    <form>
-                                        <div>
-                                            <input type="email" class="form-control" placeholder="Your email..">
-                                            <button type="submit"><i class="fa fa-envelope"></i></button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div> --}}
+
 
                     </div>
                 </div>
             </div> <!-- end upper-footer -->
+
+
             <div class="copyright-info">
                 <div class="container">
                     <p>2021 &copy; Todos los derechos reservados <a href="https://www.facebook.com/Piuratrips" target="_blank">PIURA TRIPS - Agencia de viajes y turismo.</a></p>
@@ -202,7 +182,7 @@
 
         <div style="position:fixed;z-index:900;bottom:90px;right:14px">
             <div style="width:70px;height:70px;float:left;overflow:hidden">
-                <a href="https://wa.link/72g4hd" target="_blank"><img src="turismo/images/wpp.png" class="img-fluid"></a>
+                <a href="https://wa.link/72g4hd" target="_blank"><img src="{{ asset('turismo/images/wpp.png')}}" class="img-fluid"></a>
             </div>
         </div>
 
@@ -221,5 +201,19 @@
 
     <!-- Custom script for this template -->
     <script src="{{ asset('turismo/js/script.js')}} "></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+    {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js.map"></script> --}}
+
+    <script>
+        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+
+    </script>
+
+
+
 </body>
 </html>
