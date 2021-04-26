@@ -5,10 +5,22 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="IDEASSOFT PERÚ">
 
-    <title>OST CONSULTORES @yield('title',' - NORMAS ISO')</title>
+    <title>OST CONSULTORES @yield('title',' - Ayudamos a sacar tu certificado en tiempo record.')</title>
+    <link rel=icon href={{ asset('blog/img/ostconsultores.jpg') }}>
+    <link rel="apple-touch-icon" href="{{ asset('blog/img/ostconsultores.jpg') }}">
+
+    <meta name="author" content="IDEASSOFT PERÚ">
+    <meta name="keywords" content="OST CONSULTORES, Implementación de Sistema Integrado de Gestión, consultoría, capacitación de normas ISO. Juntos obtendremos ese certificado ISO." />
+    <meta name="description" content="OST CONSULTORES - Implementación de Sistema Integrado de Gestión, consultoría, capacitación de normas ISO. Juntos obtendremos ese certificado ISO." />
+
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="OST CONSULTORES" />
+    <meta property="og:url" content="https://ostconsultores.com" />
+    <meta property="og:description" content="OST CONSULTORES - Ayudamos a sacar tu certificado en tiempo record." />
+    <meta property="og:image" content="{{ asset('blog/img/ostconsultores.jpg') }}" />
+
 
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('blog/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -25,6 +37,9 @@
 
     {{-- style propio --}}
     <link href="{{ asset('blog/css/app.css') }}" rel="stylesheet">
+
+
+    <meta name="google-site-verification" content="l5xdrtLt1NrlKp291xavO8TeM-iL7UXvykGQ2640zI4" />
 
 </head>
 
@@ -168,20 +183,22 @@
                 <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item mr-3">
-                            <a href="https://www.facebook.com/ideassoftperu" target="_blank">
+                            <a href="https://www.facebook.com/ostconsultores" target="_blank">
                                 <i class="fab fa-facebook fa-2x fa-fw"></i>
                             </a>
                         </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/ostconsultores/" target="_blank">
+                                <i class="fab fa-instagram fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+
                         <li class="list-inline-item mr-3">
                             <a href="#">
                                 <i class="fab fa-twitter-square fa-2x fa-fw"></i>
                             </a>
                         </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-instagram fa-2x fa-fw"></i>
-                            </a>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>
@@ -191,8 +208,7 @@
     {{-- WhatsApp --}}
     <div style="position: fixed; z-index: 900; bottom: 90px; right: 14px;">
         <div style="width: 70px; height: 70px; float: left; overflow: hidden;">
-            <a href="#" target="_blank"> <img src="{{ asset('img/whatsapp-png.png') }}" class="img-fluid"
-                    style="height: 60px; width: 60px"></a>
+            <a href="https://wa.link/2098bh" target="_blank"> <img src="{{ asset('img/whatsapp-png.png') }}" class="img-fluid" style="height: 60px; width: 60px"></a>
         </div>
     </div>
 

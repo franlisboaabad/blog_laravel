@@ -113,7 +113,7 @@
                 <div class=" col-lg-4 ">
                     <div class=" features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 ">
                         <div class=" features-icons-icon d-flex ">
-                            <a href="#!" class=" m-auto text-primary ">
+                            <a href="{{ route('responsabilidad_social') }}" class=" m-auto text-primary ">
                                 <img src=" {{ asset('/blog/img/isos/ISO-26000-RESPONSABILIDAD-SOCIAL-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a>
@@ -126,7 +126,7 @@
                 <div class=" col-lg-4 ">
                     <div class=" features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 ">
                         <div class=" features-icons-icon d-flex ">
-                            <a href="#!" class=" m-auto text-primary ">
+                            <a href="{{ route('sistema_gestion') }}" class=" m-auto text-primary ">
                                 <img src="
                                             {{ asset('/blog/img/isos/ISO-27001-SISTEMA-DE-GESTION-DE-SEGURIDAD-DE-LA-INFORMACION-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
@@ -141,7 +141,7 @@
                 <div class=" col-lg-4 ">
                     <div class=" features-icons-item mx-auto mb-0 mb-lg-3 ">
                         <div class=" features-icons-icon d-flex ">
-                            <a href="#!" class=" m-auto text-primary ">
+                            <a href="{{ route('sistema_alimentaria') }}" class=" m-auto text-primary ">
                                 <img src="
                                             {{ asset('/blog/img/isos/ISO-22000-SISTEMA-DE-GESTION-DE-INOCUIDAD-ALIMENTARIA-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
@@ -155,7 +155,7 @@
                 <div class=" col-lg-4 ">
                     <div class=" features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 ">
                         <div class=" features-icons-icon d-flex ">
-                            <a href="#!" class=" m-auto text-primary ">
+                            <a href="{{ route('sistema_ambiental') }}" class=" m-auto text-primary ">
                                 <img src="
                                             {{ asset('/blog/img/isos/ISO-14001-SISTEMA-DE-GESTION-MEDIO-AMBIENTAL-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
@@ -168,7 +168,7 @@
                 <div class=" col-lg-4 ">
                     <div class=" features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 ">
                         <div class=" features-icons-icon d-flex ">
-                            <a href="#!" class=" m-auto text-primary ">
+                            <a href="{{ route('sistema_calidad') }}" class=" m-auto text-primary ">
                                 <img src="
                                             {{ asset('/blog/img/isos/ISO-9001-SISTEMA-DE-GESTION-DE-CALIDAD-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
@@ -181,7 +181,7 @@
                 <div class=" col-lg-4 ">
                     <div class=" features-icons-item mx-auto mb-0 mb-lg-3 ">
                         <div class=" features-icons-icon d-flex ">
-                            <a href="#!" class=" m-auto text-primary ">
+                            <a href="{{ route('sistema_antisoborno') }}" class=" m-auto text-primary ">
                                 <img src="
                                             {{ asset('/blog/img/isos/ISO-37001-SISTEMA-DE-GESTION-ANTISOBORNO-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">

@@ -79,13 +79,11 @@
                 </form>
             </div>
             <div class="col-md-6 mb-3">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.411100054028!2d-80.62948958569905!3d-5.197895153862581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904a107e07d6b4eb%3A0x9586e744e921a6c0!2sCasa%20Museo%20Almirante%20Miguel%20Grau!5e0!3m2!1ses-419!2spe!4v1617287149302!5m2!1ses-419!2spe"
-                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30699.444431035423!2d-79.03796683806767!3d-8.114132450822858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3d7fe3fae92d%3A0xd3bc7d125d4e8508!2sTrujillo!5e0!3m2!1ses-419!2spe!4v1619454551217!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
                 <div class="informacion mt-3">
-                    <p>Celular +51 922852443 <br> Email: informes@ostconsultores.com <br> Email2:
-                        contacto@ostconsultores.com </p>
+                    <p>Celular +51 920852185 <br> Email: informes@ostconsultores.com <br> Email2:
+                        ostconsultores@gmail.com </p>
                 </div>
             </div>
         </div>
