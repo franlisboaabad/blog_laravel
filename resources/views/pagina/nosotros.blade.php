@@ -25,6 +25,9 @@
 <section>
     <div class="container my-5">
         <h2 style="color:  #000080 ">Acerca de nosotros</h2>
+        <div class="log text-center">
+            <img src="{{ asset('blog/img/ostconsultores.jpg') }}" alt="ost consultores" class="img-fluid" width="400px">
+        </div>
         <p class="text-justify"> <strong>OST CONSULTORES</strong> de las consultoras técnicas especializadas más importantes del Perú. Nuestra trayectoria suma 10 años brindando servicios en cuestión de Normas ISO en diversas partes de Latinoamérica.</p>
     </div>
 </section>

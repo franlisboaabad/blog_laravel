@@ -4,7 +4,8 @@
 @section('contenido')
     <section>
         <div class="container my-5 text-center">
-            <h2 style="color: #000080 !important">OST CONSULTORES</h2>
+            {{-- <h2 style="color: #000080 !important">OST CONSULTORES</h2> --}}
+            <img src="{{ asset('blog/img/ostconsultores.jpg') }}" alt="ost consultores" class="img-fluid" width="400px">
             <p class="mt-5">Una de las consultoras técnicas especializadas más importantes del Perú. Nuestra trayectoria
                 suma 5 años brindando servicios en cuestión de Normas ISO en diversas partes de Latinoamérica.</p>
         </div>
@@ -128,7 +129,7 @@
                         <div class=" features-icons-icon d-flex ">
                             <a href="{{ route('sistema_gestion') }}" class=" m-auto text-primary ">
                                 <img src="
-                                            {{ asset('/blog/img/isos/ISO-27001-SISTEMA-DE-GESTION-DE-SEGURIDAD-DE-LA-INFORMACION-150x150.png') }} "
+                                                {{ asset('/blog/img/isos/ISO-27001-SISTEMA-DE-GESTION-DE-SEGURIDAD-DE-LA-INFORMACION-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
@@ -143,7 +144,7 @@
                         <div class=" features-icons-icon d-flex ">
                             <a href="{{ route('sistema_alimentaria') }}" class=" m-auto text-primary ">
                                 <img src="
-                                            {{ asset('/blog/img/isos/ISO-22000-SISTEMA-DE-GESTION-DE-INOCUIDAD-ALIMENTARIA-150x150.png') }} "
+                                                {{ asset('/blog/img/isos/ISO-22000-SISTEMA-DE-GESTION-DE-INOCUIDAD-ALIMENTARIA-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
@@ -157,7 +158,7 @@
                         <div class=" features-icons-icon d-flex ">
                             <a href="{{ route('sistema_ambiental') }}" class=" m-auto text-primary ">
                                 <img src="
-                                            {{ asset('/blog/img/isos/ISO-14001-SISTEMA-DE-GESTION-MEDIO-AMBIENTAL-150x150.png') }} "
+                                                {{ asset('/blog/img/isos/ISO-14001-SISTEMA-DE-GESTION-MEDIO-AMBIENTAL-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
@@ -170,7 +171,7 @@
                         <div class=" features-icons-icon d-flex ">
                             <a href="{{ route('sistema_calidad') }}" class=" m-auto text-primary ">
                                 <img src="
-                                            {{ asset('/blog/img/isos/ISO-9001-SISTEMA-DE-GESTION-DE-CALIDAD-150x150.png') }} "
+                                                {{ asset('/blog/img/isos/ISO-9001-SISTEMA-DE-GESTION-DE-CALIDAD-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
@@ -183,7 +184,7 @@
                         <div class=" features-icons-icon d-flex ">
                             <a href="{{ route('sistema_antisoborno') }}" class=" m-auto text-primary ">
                                 <img src="
-                                            {{ asset('/blog/img/isos/ISO-37001-SISTEMA-DE-GESTION-ANTISOBORNO-150x150.png') }} "
+                                                {{ asset('/blog/img/isos/ISO-37001-SISTEMA-DE-GESTION-ANTISOBORNO-150x150.png') }} "
                                     alt=" " style=" width: 100px; height:100px; ">
                             </a><br>
                         </div>
@@ -209,7 +210,8 @@
                     @forelse($posts as $post)
                         <div class="col-md-4 mb-3">
                             <div class="card">
-                                <a href="{{ route('entrada', $post) }}"><img src="{{ $post->get_imagen }}" class="card-img-top" alt="{{ $post->title }}"></a>
+                                <a href="{{ route('entrada', $post) }}"><img src="{{ $post->get_imagen }}"
+                                        class="card-img-top" alt="{{ $post->title }}"></a>
                                 <div class="card-body">
                                     <h5 class="card-title">{{ $post->title }}</h5>
                                     <p class="card-text text-justify"> {{ $post->get_resumen }} </p>
@@ -223,7 +225,9 @@
                     @endforelse
                 </div>
                 <div class="service text-center mt-5">
-                    <a href="{{ route('entradas') }}" class="btn btn-primary" style="background-color: #000080">VER MÁS ENTRADAS</a></div>
+                    <a href="{{ route('entradas') }}" class="btn btn-primary" style="background-color: #000080">TODAS LAS
+                        ENTRADAS</a>
+                </div>
             </div>
         </div>
     </section>
@@ -235,23 +239,75 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-9 mx-auto">
-                    <h2 class="mb-4">¿Preparado para comenzar? <a href="{{ route('contacto') }}"
-                            style="color:white">¡Regístrate ahora!</a> </h2>
+                    <h2 class="mb-4">¿Preparado para comenzar? <a href="#contactanos" style="color:white">
+                            <br> ¡Regístrate ahora!</a> </h2>
                 </div>
                 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-                    {{-- <form method="post" action="{{ route('contacto_email') }}">
-                        @csrf
-                        <div class="form-row">
-                            <div class="col-12 col-md-9 mb-2 mb-md-0">
-                                <input type="email" class="form-control form-control-lg"
-                                    placeholder="Ingrese su correo electrónico">
-                            </div>
-                            <div class="col-12 col-md-3">
-                                <button type="submit" class="btn btn-block btn-lg btn-primary"
-                                    id="button_register">Registrarse</button>
-                            </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-5">
+            <h3 class="text-center" id="contactanos">CONTÁCTANOS</h3>
+            <div class="row mt-5">
+
+               
+
+
+                <div class="col-md-6 mb-3">
+
+                    @if (session('status'))
+                        <div class="alert alert-success" role="alert">
+                            {{ session('status') }}
                         </div>
-                    </form> --}}
+                    @endif
+
+
+                    <form action="{{ route('contacto_email') }}" method="post">
+
+                        @csrf
+                        <div class="form-group">
+                            <label for="">Nombres y Apellidos</label>
+                            <input type="text" name="nombres" placeholder="Ingrese Nombres y Apellidos" required
+                                class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="">Correo electrónico</label>
+                            
+                            <input type="hidden" name="celular" value="+5100000">
+                            <input type="hidden" name="ruc" value="000000000000">
+
+                            <input type="email" name="email" placeholder="Ingrese correo electrónico" required
+                                class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="">Titulo de mensaje</label>
+                            <input type="text" name="titulo" placeholder="Titulo de mensaje" required class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="">Mensaje</label>
+                            <textarea class="form-control" name="mensaje" rows="6"></textarea>
+                        </div>
+
+                        <button class="btn btn btn-success" style=" width: 300px">ENVIAR MENSAJE</button>
+
+
+                    </form>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.465357665721!2d-80.62050128523569!3d-5.189287596234519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwMTEnMjEuNCJTIDgwwrAzNycwNS45Ilc!5e0!3m2!1ses!2spe!4v1619494208506!5m2!1ses!2spe"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                    <div class="informacion mt-3">
+                        <p> <i class="fa fa-map-marker text-primary"></i> Calle los Ebanos z-14, Miraflores-Castilla, Piura <br> <i class="fa fa-phone text-primary"></i> Celular +51 920852185</p>
+                    </div>
                 </div>
             </div>
         </div>

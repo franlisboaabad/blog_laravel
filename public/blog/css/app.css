@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif im !important;
+}
+
 /* paginas internas */
 
 header.masthead-internas {
@@ -113,3 +119,15 @@ header.masthead-blog.overlay {
     left: 0;
     opacity: 0.3;
 }
+
+
+/* personalizacion */
+
+.dropdown-item:focus, .dropdown-item:hover {
+    /* color: white; */
+    color: #da2c46 !important;
+    text-decoration: none;
+    background-color: #ffffff !important;
+    /* background-color: #000080!important; */
+}
+

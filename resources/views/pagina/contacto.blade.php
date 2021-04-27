@@ -79,10 +79,10 @@
                 </form>
             </div>
             <div class="col-md-6 mb-3">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30699.444431035423!2d-79.03796683806767!3d-8.114132450822858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3d7fe3fae92d%3A0xd3bc7d125d4e8508!2sTrujillo!5e0!3m2!1ses-419!2spe!4v1619454551217!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.465357665721!2d-80.62050128523569!3d-5.189287596234519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwMTEnMjEuNCJTIDgwwrAzNycwNS45Ilc!5e0!3m2!1ses!2spe!4v1619494208506!5m2!1ses!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
                 <div class="informacion mt-3">
-                    <p>Celular +51 920852185 <br> Email: informes@ostconsultores.com <br> Email2:
+                    <p> Calle los Ebanos z-14, Miraflores-Castilla, Piura <br> Celular +51 920852185 <br> Email: informes@ostconsultores.com <br> Email2:
                         ostconsultores@gmail.com </p>
                 </div>
             </div>
