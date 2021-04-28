@@ -1,9 +1,12 @@
 @extends('layouts.page')
 @section('title','-BLOG')
 <style>
+
     .masthead {
         display: none !important;
     }
+
+    .bg-slider{ display: none !important}
 
 </style>
 @section('contenido')

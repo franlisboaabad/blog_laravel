@@ -5,6 +5,10 @@
         display: none !important;
     }
 
+    .bg-slider {
+        display: none !important
+    }
+
 </style>
 @section('contenido')
 

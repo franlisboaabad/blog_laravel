@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body{
-    font-family: 'Lato', sans-serif im !important;
+    font-family: 'Lato', sans-serif !important;
 }
+
+/* navbar */
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #006fb1 !important;
+}
+
 
 /* paginas internas */
 
@@ -131,3 +137,18 @@ header.masthead-blog.overlay {
     /* background-color: #000080!important; */
 }
 
+
+
+
+/* color  */
+
+.bg-default{
+    background-color: #fcfbf7 !important;
+}
+
+/* footer */
+
+footer.footer {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
