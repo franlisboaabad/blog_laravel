@@ -11,7 +11,7 @@
 
             <div class="col-md-4" style="margin-bottom:30px">
                 <div class="card">
-                    <img class="card-img-top" src="{{ asset('turismo/images/servicios-tours/servicio-s1.jpg') }}" alt="3 Días 2 Noches Noches Canchaque VIP">
+                    <img class="card-img-top" src="{{ asset('turismo/images/ideaspiuratours/servicios/mancora_web1.jpg') }}" alt="Mancora ideaspiuratours">
                     <div class="card-body">
                         <h5 class="text-justify">PQTE. MANCORA - ENAMORATE DEL NORTE 5D / 4N </h5>
                         <button class="btn btn-warning" data-toggle="modal" data-target="#tours-m1"> <i class="fa fa-eye"></i> Más información</button>
@@ -23,7 +23,7 @@
 
             <div class="col-md-4" style="margin-bottom:30px">
                 <div class="card">
-                    <img class="card-img-top" src="{{ asset('turismo/images/servicios-tours/servicio-s1.jpg') }}" alt="3 Días 2 Noches Noches Canchaque VIP">
+                    <img class="card-img-top" src="{{ asset('turismo/images/ideaspiuratours/servicios/mancora_web2.jpg') }}" alt="Mancora ideaspiuratours">
                     <div class="card-body">
                         <h5 class="text-justify">PQTE. MANCORA - ENAMORATE DEL NORTE 4D / 3N </h5>
                         <button class="btn btn-warning" data-toggle="modal" data-target="#tours1"> <i class="fa fa-eye"></i> Más información</button>
@@ -34,7 +34,7 @@
 
             <div class="col-md-4" style="margin-bottom:30px">
                 <div class="card">
-                    <img class="card-img-top" src="{{ asset('turismo/images/servicios-tours/servicio-s2.jpg') }}" alt="Canchaque + San Miguel del Faique Monacheco Tours">
+                    <img class="card-img-top" src="{{ asset('turismo/images/ideaspiuratours/servicios/mancora_web3.jpg') }}" alt="Mancora ideaspiuratours">
                     <div class="card-body">
                         <h5 class="text-justify">PQTE. MANCORA - ENAMORATE DEL NORTE 3D / 2N </h5>
                         <button class="btn btn-warning" data-toggle="modal" data-target="#tours2"> <i class="fa fa-eye"></i> Más información</button>
@@ -45,7 +45,7 @@
 
             <div class="col-md-4" style="margin-bottom:30px">
                 <div class="card">
-                    <img class="card-img-top" src="{{ asset('turismo/images/servicios-tours/servicio-s3.jpg') }}" alt="Tour Canchaque 2 días 1 noche">
+                    <img class="card-img-top" src="{{ asset('turismo/images/ideaspiuratours/servicios/mancora_web4.jpg') }}" alt="Mancora ideaspiuratours">
                     <div class="card-body">
                         <h5 class="text-justify">PQTE. MANCORA 2D / 1N </h5>
                         <button class="btn btn-warning" data-toggle="modal" data-target="#tours3"> <i class="fa fa-eye"></i> Más información</button>
@@ -56,7 +56,7 @@
 
             <div class="col-md-4" style="margin-bottom:30px">
                 <div class="card">
-                    <img class="card-img-top" src="{{ asset('turismo/images/servicios-tours/servicio-s4.jpg') }}" alt="Servicio FULL DAY Canchaque Monacheco Tours">
+                    <img class="card-img-top" src="{{ asset('turismo/images/ideaspiuratours/servicios/mancora_web.jpg') }}" alt="Mancora ideaspiuratours">
                     <div class="card-body">
                         <h5 class="text-justify">TOURS MANCORA</h5>
                         <button class="btn btn-warning" data-toggle="modal" data-target="#tours4"> <i class="fa fa-eye"></i> Más información</button>
@@ -67,7 +67,7 @@
 
             <div class="col-md-4" style="margin-bottom:30px">
                 <div class="card">
-                    <img class="card-img-top" src="{{ asset('turismo/images/servicios-tours/servicio-s5.jpg') }}" alt="Servicio FULL DAY Canchaque Monacheco Tours">
+                    <img class="card-img-top" src="{{ asset('turismo/images/ideaspiuratours/servicios/canchaque_web.jpg') }}" alt="Canchaque ideaspiuratours">
                     <div class="card-body">
                         <h5 class="text-justify">TOURS CANCHAQUE + EL FAIQUE FULL DAY</h5>
                         <button class="btn btn-warning" data-toggle="modal" data-target="#tours5"> <i class="fa fa-eye"></i> Más información</button>
@@ -78,7 +78,7 @@
 
             <div class="col-md-4" style="margin-bottom:30px">
                 <div class="card">
-                    <img class="card-img-top" src="{{ asset('turismo/images/servicios-tours/servicio-s5.jpg') }}" alt="Servicio FULL DAY Canchaque Monacheco Tours">
+                    <img class="card-img-top" src="{{ asset('turismo/images/ideaspiuratours/servicios/canchaque2_web.jpg') }}" alt="Canchaque ideaspiuratours">
                     <div class="card-body">
                         <h5 class="text-justify">TOURS CANCHAQUE 2 DÍAS / 1 NOCHE </h5>
                         <button class="btn btn-warning" data-toggle="modal" data-target="#tours6"> <i class="fa fa-eye"></i> Más información</button>
@@ -90,7 +90,7 @@
 
             <div class="col-md-4" style="margin-bottom:30px">
                 <div class="card">
-                    <img class="card-img-top" src="{{ asset('turismo/images/servicios-tours/servicio-s5.jpg') }}" alt="Servicio FULL DAY Canchaque Monacheco Tours">
+                    <img class="card-img-top" src="{{ asset('turismo/images/ideaspiuratours/servicios/canchaque3_web.jpg') }}" alt="Canchaque ideaspiuratours">
                     <div class="card-body">
                         <h5 class="text-justify">TOURS CANCHAQUE 2 DÍAS / 1 NOCHE + FAIQUE</h5>
                         <button class="btn btn-warning" data-toggle="modal" data-target="#tours7"> <i class="fa fa-eye"></i> Más información</button>
@@ -103,7 +103,7 @@
 
             <div class="col-md-4" style="margin-bottom:30px">
                 <div class="card">
-                    <img class="card-img-top" src="{{ asset('turismo/images/servicios-tours/servicio-s6.jpg') }}" alt="Trekking Catarata Chorro Blanco Monacheco Tours">
+                    <img class="card-img-top" src="{{ asset('turismo/images/ideaspiuratours/servicios/piura_web.jpg') }}" alt="Trekking Catarata Chorro Blanco">
                     <div class="card-body">
                         <h5 class="text-justify">CITY TOURS PIURA.</h5>
                         <button class="btn btn-warning" data-toggle="modal" data-target="#tours8"> <i class="fa fa-eye"></i> Más información</button>
@@ -135,7 +135,7 @@
         {{-- modalls --}}
 
         <div class="modal fade" id="tours1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog modal-center" role="document">
+            <div class="modal-dialog " role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>

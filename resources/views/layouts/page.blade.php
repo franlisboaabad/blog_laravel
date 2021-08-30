@@ -38,6 +38,9 @@
 
 <body>
 
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v11.0" nonce="ct7U1qVN"></script>
+
     <!-- start page-wrapper -->
     <div class="page-wrapper">
 
@@ -140,23 +143,26 @@
                         <div class="col col-md-5 col-sm-6">
                             <div class="widget recent-post-widget">
                                 <p class="text-justify">Agencia de Viajes y Tour Operadora en la ciudad de Piura - Perú, ofrecemos servicios personalizados para vivir la mejor experiencia en viajes y turismo</p>
+                            </div>
+                        </div>
+
+                        <div class="col col-md-4 col-sm-6">
+                            <div class="widget recent-post-widget">
+                               <p class="text-center">
+                                   <span class="text-center"> Aceptamos todas las tarjetas de credito y debito </span>
+                               </p>
+                               <img src="{{ asset('turismo/images/ideaspiuratours/tarjetas.jpg') }}" alt="" class="img-fluid">
 
                             </div>
                         </div>
 
-                        <div class="col col-md-5 col-sm-6">
-                            <div class="widget recent-post-widget">
-                                <p>
-                                    <i class="fa fa-cube"></i>  info@ideaspiuratours.com <br>
-                                    <i class="fa fa-phone"></i>  +51 945 368 416 <br>
+                        <div class="col col-md-3 col-sm-6">
+                            <div class="widget quick-links-widget">
+                                 <p>
+                                    <i class="fa fa-cube"></i> info@ideaspiuratours.com <br>
+                                    <i class="fa fa-phone"></i> +51 945 368 416 <br>
                                     <i class="fa fa-map-marker"></i> Calle Junin 651 - Piura
                                 </p>
-                            </div>
-                        </div>
-
-                        <div class="col col-md-2 col-sm-6">
-                            <div class="widget quick-links-widget">
-
                             </div>
                         </div>
 
