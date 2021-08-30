@@ -55,10 +55,10 @@
                 </form>
             </div>
             <div class="col-md-5 mb-3">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31786.8072263826!2d-80.65015808217012!3d-5.207428308171303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904a109f58eccde9%3A0xa351073a40527404!2sAv.%20Miguel%20Grau%201802-1852%2C%20Piura%2020003!5e0!3m2!1ses-419!2spe!4v1617674723374!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.4310666838446!2d-80.63095168463751!3d-5.194729253840596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904a11f648bfd41b%3A0x9aaf86453a95b043!2sIdeas%20Piura%20Tours%2C%20agencia%20de%20viajes%20y%20turismo!5e0!3m2!1ses-419!2spe!4v1629996031425!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
-                <p>informes@piuratrips.com <br> piuratrips@gmail.com <br>
-                    PE: +51 951 411 377 <br> <a href="https://www.facebook.com/Piuratrips" target="_blank"> Visita nuestro fanpage</a> </p>
+                <p>informes@ideaspiuratours.com <br> ventas@ideaspiuratours.com <br>
+                    PE: +51 945 368 416 <br> <a href="https://www.facebook.com/ideaspiuratours" target="_blank"> Visita nuestro fanpage</a> </p>
             </div>
         </div>
 

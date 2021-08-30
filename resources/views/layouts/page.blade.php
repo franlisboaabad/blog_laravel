@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="IDEASSOFT PERÚ">
     <link rel="icon" href="{{asset('turismo/images/logo.png')}}">
-    <link rel="shortcut icon" type="image/ico" href="{{asset('turismo/images/logo.png')}}" />
+    <link rel="shortcut icon" type="image/ico" href="{{asset('turismo/images/ideaspiuratours/ideaspiuratours.png')}}" />
 
     <meta property="og:url" content="#" />
     <meta property="og:type" content="website" />
@@ -19,7 +19,7 @@
     <meta name="keywords" content="">
 
     <!-- Page Title -->
-    <title>PIURA TRIPS - @yield('title')</title>
+    <title>IDEAS PIURA TOURS - @yield('title')</title>
 
 
     <!-- Icon fonts -->
@@ -61,7 +61,7 @@
                         <div class="col col-sm-5">
                             <div class="contact-info">
                                 <ul>
-                                    <li><i class="fa fa-envelope"></i> <a href="mailto:informes@piuratrips.com" style="color:white">informes@piuratrips.com</a> </li>
+                                    <li><i class="fa fa-envelope"></i> <a href="mailto:info@ideaspiuratours.com" style="color:white">info@ideaspiuratours.com</a> </li>
                                 </ul>
                             </div>
                         </div>
@@ -69,16 +69,16 @@
                             <div class="social-contact-info-right">
                                 <div class="social">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/Piuratrips" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="https://www.instagram.com/piuratrips/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                        <li><a href="https://www.youtube.com/channel/UCNd73Ot0X1OlgysGJ3juCzw " target="_blank"><i class="fa fa-youtube-square"></i></a></li>
+                                        <li><a href="https://www.facebook.com/ideaspiuratours" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="https://www.instagram.com/ideaspiuratours_agencia_de_tur/?hl=es" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="https://www.youtube.com/ " target="_blank"><i class="fa fa-youtube-square"></i></a></li>
                                         {{-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                                         <li><a href="#"><i class="fa fa-rss"></i></a></li> --}}
                                     </ul>
                                 </div>
                                 <div class="contact-info-right">
                                     <ul>
-                                        <li><span>PE:</span> +51 951 411 377 / Oficina: (073) - 618842</li>
+                                        <li><span>PE:</span> +51 945368416 / 917487100 </li>
                                     </ul>
                                 </div>
                             </div>
@@ -96,7 +96,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="/"><img src="{{asset('turismo/images/logo.png')}}" style="width: 100px; height: auto; margin-top: -30px;" alt="logo-piuratrips"></a>
+                        <a class="navbar-brand" href="/"><img src="{{asset('turismo/images/ideaspiuratours/logo.png')}}" style="width: 150px; height: auto; margin-top: -50px;" alt="logo-ideaspiuratours"></a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
                         <button class="close-navbar"><i class="fa fa-close"></i></button>
@@ -147,9 +147,9 @@
                         <div class="col col-md-5 col-sm-6">
                             <div class="widget recent-post-widget">
                                 <p>
-                                    <i class="fa fa-cube"></i>  informes@piuratrips.com <br>
-                                    <i class="fa fa-phone"></i>  +51 951 411 377 <br>
-                                    <i class="fa fa-map-marker"></i> Conj. Hab. Villa California – Interior A- 1, Castilla.
+                                    <i class="fa fa-cube"></i>  info@ideaspiuratours.com <br>
+                                    <i class="fa fa-phone"></i>  +51 945 368 416 <br>
+                                    <i class="fa fa-map-marker"></i> Calle Junin 651 - Piura
                                 </p>
                             </div>
                         </div>
@@ -169,7 +169,7 @@
 
             <div class="copyright-info">
                 <div class="container">
-                    <p>2021 &copy; Todos los derechos reservados <a href="https://www.facebook.com/Piuratrips" target="_blank">PIURA TRIPS - Agencia de viajes y turismo.</a></p>
+                    <p> Copyright 2021 - <a href="https://www.facebook.com/ideaspiuratours" target="_blank">IDEASPIURATOURS - Agencia de viajes y turismo.</a></p>
                     <ul>
                         {{-- <li><a href="#">Privacy</a></li>
                         <li><a href="#">Terms</a></li> --}}
@@ -182,7 +182,7 @@
 
         <div style="position:fixed;z-index:900;bottom:90px;right:14px">
             <div style="width:70px;height:70px;float:left;overflow:hidden">
-                <a href="https://wa.link/72g4hd" target="_blank"><img src="{{ asset('turismo/images/wpp.png')}}" class="img-fluid"></a>
+                <a href="https://wa.link/ilkbsa" target="_blank"><img src="{{ asset('turismo/images/wpp.png')}}" class="img-fluid"></a>
             </div>
         </div>
 

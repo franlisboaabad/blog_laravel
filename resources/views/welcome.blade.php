@@ -12,7 +12,7 @@
 <section class="hero hero-slider-wrapper hero-style-2">
     <div class="hero-slider">
         <div class="slide">
-            <img src="{{asset('turismo/images/slider/paseo-caballo.jpg')}}" alt class="slider-bg">
+            <img src="{{asset('turismo/images/slider/slider-banner-1.jpg')}}" alt class="slider-bg">
             <div class="container">
                 {{-- <div class="row">
                     <div class="col col-lg-7 col-sm-10 slide-caption" id="caption">
@@ -26,7 +26,7 @@
     </div>
 
     <div class="slide">
-        <img src="{{asset('turismo/images/slider/tours-manglares.jpg')}}" alt class="slider-bg">
+        <img src="{{asset('turismo/images/slider/slider-banner-2.jpg')}}" alt class="slider-bg">
         <div class="container">
             {{-- <div class="row">
                     <div class="col col-lg-7 col-sm-10 slide-caption" id="caption">
@@ -42,7 +42,7 @@
 
 
     <div class="slide">
-        <img src="{{asset('turismo/images/slider/tours-tortugas.jpg')}}" alt class="slider-bg">
+        <img src="{{asset('turismo/images/slider/slider-banner-3.jpg')}}" alt class="slider-bg">
         <div class="container">
             {{-- <div class="row">
                     <div class="col col-lg-7 col-sm-10 slide-caption" id="caption">
@@ -62,58 +62,18 @@
 
 <section>
     <div class="container" style="margin-top: 30px">
-        <h2 class="text-center text-muted">BIENVENIDOS - PIURA TRIPS</h2>
-        <p class="text-center" style="margin-top: 30px"> <strong>Piura Trips</strong> - Les da la bienvenida al mundo de los viajes y el turismo en la ciudad del eterno calor, nuestra experiencia combinada en el sector turístico nos permite hacer realidad tu viaje soñado.</p>
+        <h2 class="text-center">BIENVENIDOS - Ideas Piura Tours Eirl.</h2>
+        <p class="text-center" style="margin-top: 30px">
+            La Agencia de Viajes y Turismo Ideas Piura Tours EIRL con RUC 20604249296 y oficina comercial ubicada en calle Junín 651 (referencias espaladas del hotel costa del sol Piura). Tiene el agrado de presentarse ante ustedes con la finalidad de ofrecerles nuestra amplia variedad de productos y servicios turísticos, siendo una excelente alternativa en la elección que Usted y su Institución educativa requiera.
+        </p>
     </div>
 </section>
 
-
-{{-- servicios --}}
-<section>
-    <div class="container" style="margin-top: 30px">
-        <h3 class="text-center text-muted">NUESTROS SERVICIOS</h3>
-        <div class="row" style="margin-top: 30px">
-            <div class="col-md-4" style="margin-bottom:30px">
-                <div class="card">
-                    <div class="img-holder">
-                        <img src="{{ asset('turismo/images/services/consultoria.jpg') }}" alt="">
-                    </div>
-                    <div class="card-body">
-                        <p class="text-justify">CONSULTORÍA Y ASESORÍA TURÍSTICA</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4" style="margin-bottom:30px">
-                <div class="card">
-                    <div class="img-holder">
-                        <img src="{{ asset('turismo/images/services/privado.jpg') }}" alt="">
-                    </div>
-                    <div class="card-body">
-                        <p class="text-justify">VENTA DE BOLETOS AÉREOS NACIONALES E INTERNACIONALES</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4" style="margin-bottom:30px">
-                <div class="card">
-                    <div class="img-holder">
-                        <img src="{{ asset('turismo/images/services/ventas.jpg') }}" alt="">
-                    </div>
-                    <div class="card-body">
-                        <p class="text-justify">TRASLADOS AEROPUERTO – HOTEL AEROPUERTO | TRASLADOS AEROPUERTO – PLAYAS – AEROPUERTO </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="parallax"></section>
 
 {{-- turismo en piura --}}
 <section>
     <div class="container" style="margin-top: 30px">
-        <h3 class="text-center text-muted">TURISMO EN PIURA</h3>
+        <h3 class="text-center">Turismo en Piura</h3>
 
         <div class="row" style="margin-top: 30px">
             <div class="col-md-4" style="margin-bottom:30px">
@@ -154,17 +114,61 @@
 </section>
 
 
+{{-- servicios --}}
+{{-- <section>
+    <div class="container" style="margin-top: 30px">
+        <h3 class="text-center text-muted">NUESTROS SERVICIOS</h3>
+        <div class="row" style="margin-top: 30px">
+            <div class="col-md-4" style="margin-bottom:30px">
+                <div class="card">
+                    <div class="img-holder">
+                        <img src="{{ asset('turismo/images/services/consultoria.jpg') }}" alt="">
+                    </div>
+                    <div class="card-body">
+                        <p class="text-justify">CONSULTORÍA Y ASESORÍA TURÍSTICA</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" style="margin-bottom:30px">
+                <div class="card">
+                    <div class="img-holder">
+                        <img src="{{ asset('turismo/images/services/privado.jpg') }}" alt="">
+                    </div>
+                    <div class="card-body">
+                        <p class="text-justify">VENTA DE BOLETOS AÉREOS NACIONALES E INTERNACIONALES</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" style="margin-bottom:30px">
+                <div class="card">
+                    <div class="img-holder">
+                        <img src="{{ asset('turismo/images/services/ventas.jpg') }}" alt="">
+                    </div>
+                    <div class="card-body">
+                        <p class="text-justify">TRASLADOS AEROPUERTO – HOTEL AEROPUERTO | TRASLADOS AEROPUERTO – PLAYAS – AEROPUERTO </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> --}}
+
+
+<section class="parallax"></section>
+
+
+
 {{-- paquetes --}}
 
 <section>
     <div class="container" style="margin-top: 30px">
-        <h3 class="text-center text-muted">Nuestros paquetes</h3>
+        <h3 class="text-center">Nuestros paquetes</h3>
         <div class="row" style="margin-top: 30px">
             <div class="col-md-4" style="margin-bottom:30px">
                 <div class="card">
                     <img class="card-img-top" src="{{ asset('turismo/images/servicios-tours/servicio-s1.jpg') }}" alt="3 Días 2 Noches Noches Canchaque VIP">
                     <div class="card-body">
-                        <h5 class="text-justify">MANCORA 2D / 1N desde <span>s/ 299.00</span> por persona.</h5>
+                        <h5 class="text-justify">PQTE. MANCORA - ENAMORATE DEL NORTE 4D / 3N </h5>
                     </div>
                 </div>
             </div>
@@ -173,7 +177,7 @@
                 <div class="card">
                     <img class="card-img-top" src="{{ asset('turismo/images/servicios-tours/servicio-s2.jpg') }}" alt="Canchaque + San Miguel del Faique Monacheco Tours">
                     <div class="card-body">
-                        <h5 class="text-justify">MANCORA 3D / 2N desde <span>s/ 390.00</span> por persona.</h5>
+                        <h5 class="text-justify">PQTE. MANCORA - ENAMORATE DEL NORTE 3D / 2N </h5>
                     </div>
                 </div>
             </div>
@@ -182,14 +186,14 @@
                 <div class="card">
                     <img class="card-img-top" src="{{ asset('turismo/images/servicios-tours/servicio-s3.jpg') }}" alt="Tour Canchaque 2 días 1 noche">
                     <div class="card-body">
-                        <h5 class="text-justify">MANCORA 4D / 3N desde <span>s/ 450.00</span> por persona.</h5>
+                        <h5 class="text-justify">PQTE. MANCORA - ENAMORATE DEL NORTE 2D / 1N </h5>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="paquetes text-center">
-            <a href="{{ route('servicios') }}" class="btn btn-danger"> <i class="fa fa-paper-plane">  </i> Todos los paquetes </a>
+            <a href="{{ route('servicios') }}" class="btn btn-danger"> <i class="fa fa-paper-plane"> </i> Todos los paquetes </a>
         </div>
     </div>
 </section>
@@ -197,16 +201,20 @@
 
 <section>
     <div class="container" style="margin-top: 30px">
-        <h3 class="text-center text-muted">Agencia de viajes registrada</h3>
-        <div class="row" style="margin-top: 30px">
-            <div class="col-md-3"></div>
-            <div class="col-md-3" style="margin-bottom: 30px">
-                <a href="https://www.gob.pe/minedu" target="_blank"> <img src="{{ asset('turismo/images/m-educacion.png') }}" alt="ministerio de educacion" class="img-thumbnail" style="margin-top:30px"> </a>
+        <h3 class="text-center" style="margin-bottom: 30px">Agencia de viajes registrada</h3>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="{{ asset('turismo/images/ideaspiuratours/mincetur_web.png') }}" alt="Mincetur ideaspiuratours" class="img-fluid">
             </div>
-            <div class="col-md-3" style="margin-bottom: 30px">
-                <a href="http://dircetur.regionpiura.gob.pe/" target="_blank"><img src="{{ asset('turismo/images/dir-cetur.png') }}" alt="dir cetur" class="img-thumbnail"></a>
+            <div class="col-md-3">
+                <img src="{{ asset('turismo/images/ideaspiuratours/dircetur_web.png') }}" alt="Dircetur ideaspiuratours" class="img-fluid">
             </div>
-            <div class="col-md-3"></div>
+            <div class="col-md-3">
+                <img src="{{ asset('turismo/images/ideaspiuratours/iperu_web.png') }}" alt="I peru ideaspiuratours" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="{{ asset('turismo/images/ideaspiuratours/apavit_web.png') }}" alt="Apavit ideaspiuratours" class="img-fluid">
+            </div>
         </div>
     </div>
 </section>

@@ -12,8 +12,9 @@ class PageController extends Controller
 
     public function index()
     {
-        $posts = Post::take(3)->get();
-        return view('welcome', compact('posts'));
+        //$posts = Post::take(3)->get();
+        // return view('welcome', compact('posts'));
+        return view('welcome');
     }
 
     public function nosotros()
@@ -49,6 +50,23 @@ class PageController extends Controller
         return view('portafolio.caracucho');
     }
 
+    public function canchaque()
+    {
+        return view('portafolio.canchaque');
+    }
+
+    public function mancora()
+    {
+        return view('portafolio.mancora');
+    }
+
+    public function piura()
+    {
+        return view('portafolio.piura');
+    }
+
+
+
 
     public function contacto()
     {
@@ -69,9 +87,9 @@ class PageController extends Controller
     public function contacto_email(Request $request)
     {
         $subject = $request->titulo;
-        $for = "informes@piuratrips.com";
+        $for = "info@ideaspiuratours.com";
         Mail::send('email', $request->all(), function ($msj) use ($subject, $for) {
-            $msj->from("webmaster@piuratrips.com", "Formulario contacto - Piuratrips");
+            $msj->from("webmaster@ideaspiuratours.com", "Formulario contacto - Ideas Piura Tours Eirl");
             $msj->subject($subject);
             $msj->to($for);
         });

@@ -40,6 +40,38 @@
                 </div>
             </div>
 
+
+            <div class="col-md-4" style="margin-bottom:30px">
+                <div class="card">
+                    <img class="card-img-top" src="{{ asset('turismo/images/servicios-tours/servicio-s7.png') }}" alt="3 Días 2 Noches Noches Canchaque VIP">
+                    <div class="card-body">
+                        <h5>TOURS CANCHAQUE + EL FAIQUE </h5>
+                        <a  href="{{ route('canchaque') }}" class="btn btn-danger"> <i class="fa fa-camera"></i> VER IMAGENES</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" style="margin-bottom:30px">
+                <div class="card">
+                    <img class="card-img-top" src="{{ asset('turismo/images/servicios-tours/servicio-s7.png') }}" alt="3 Días 2 Noches Noches Canchaque VIP">
+                    <div class="card-body">
+                        <h5>TOURS MANCORA </h5>
+                        <a  href="{{ route('mancora') }}" class="btn btn-danger"> <i class="fa fa-camera"></i> VER IMAGENES</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4" style="margin-bottom:30px">
+                <div class="card">
+                    <img class="card-img-top" src="{{ asset('turismo/images/servicios-tours/servicio-s7.png') }}" alt="3 Días 2 Noches Noches Canchaque VIP">
+                    <div class="card-body">
+                        <h5>CITY TOURS PIURA </h5>
+                        <a  href="{{ route('piura') }}" class="btn btn-danger"> <i class="fa fa-camera"></i> VER IMAGENES</a>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>

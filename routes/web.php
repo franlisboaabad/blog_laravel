@@ -33,6 +33,10 @@ Route::get('/portafolio/tortugas', 'PageController@tortugas')->name('tortugas');
 Route::get('/portafolio/manglares', 'PageController@manglares')->name('manglares');
 Route::get('/portafolio/caracucho', 'PageController@caracucho')->name('caracucho');
 
+Route::get('/portafolio/mancora', 'PageController@mancora')->name('mancora');
+Route::get('/portafolio/canchaque', 'PageController@canchaque')->name('canchaque');
+Route::get('/portafolio/piura', 'PageController@piura')->name('piura');
+
 // email formulario contacto 
 Route::post('/contactar', 'PageController@contacto_email')->name('contacto_email');
 
