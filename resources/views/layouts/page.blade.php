@@ -7,16 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="IDEASSOFT PERÚ">
-    <link rel="icon" href="{{asset('turismo/images/logo.png')}}">
+    <link rel="icon" href="{{asset('turismo/images/ideaspiuratours/ideaspiuratours.png')}}">
     <link rel="shortcut icon" type="image/ico" href="{{asset('turismo/images/ideaspiuratours/ideaspiuratours.png')}}" />
 
-    <meta property="og:url" content="#" />
+    <meta property="og:url" content="https://ideaspiuratours.com/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="#" />
-    <meta property="og:description" content="#" />
-    <meta property="og:image" content="#" />
+    <meta property="og:title" content="Ideas Piura Tours Eirl - Agencia de viajes y turismo." />
+    <meta property="og:description" content="Agencia de viajes y turismo a nivel local y nacional." />
+    <meta property="og:image" content="{{asset('turismo/images/ideaspiuratours/ideaspiuratours.png')}}" />
 
-    <meta name="keywords" content="">
+    <meta name="keywords" content="Agencia de viajes y turismo, viajes, paquetes, servicios, agencia, canchaque, turismo, playas, mancora, zorritos, vichayito, tortugas marinas, agencia de viajes, Ideas Piura Tours">
+
+    <meta name="google-site-verification" content="GVAnZkUHZ2BnWT8BTfIK3b8kmb3zqGNN0gzMIuW20CQ" />
 
     <!-- Page Title -->
     <title>IDEAS PIURA TOURS - @yield('title')</title>
