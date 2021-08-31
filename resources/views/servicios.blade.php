@@ -13,7 +13,7 @@
                 <div class="card">
                     <img class="card-img-top" src="{{ asset('turismo/images/ideaspiuratours/servicios/mancora_web1.jpg') }}" alt="Mancora ideaspiuratours">
                     <div class="card-body">
-                        <h5 class="text-justify">PQTE. MANCORA - ENAMORATE DEL NORTE 5D / 4N </h5>
+                        <h5 class="text-justify">PQTE. MANCORA - EL NORTE LO TIENE TODO 5D / 4N </h5>
                         <button class="btn btn-warning" data-toggle="modal" data-target="#tours-m1"> <i class="fa fa-eye"></i> Más información</button>
                         <a href="https://wa.link/ilkbsa" target="_blank"  class="btn btn-success"> <i class="fa fa-whatsapp"></i> Solicitar Ahora</a>
                     </div>
@@ -25,7 +25,7 @@
                 <div class="card">
                     <img class="card-img-top" src="{{ asset('turismo/images/ideaspiuratours/servicios/mancora_web2.jpg') }}" alt="Mancora ideaspiuratours">
                     <div class="card-body">
-                        <h5 class="text-justify">PQTE. MANCORA - ENAMORATE DEL NORTE 4D / 3N </h5>
+                        <h5 class="text-justify">PQTE. MANCORA - VIVE EL NORTE 4D / 3N </h5>
                         <button class="btn btn-warning" data-toggle="modal" data-target="#tours1"> <i class="fa fa-eye"></i> Más información</button>
                         <a href="https://wa.link/ilkbsa" target="_blank"  class="btn btn-success"> <i class="fa fa-whatsapp"></i> Solicitar Ahora</a>
                     </div>

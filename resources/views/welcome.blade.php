@@ -62,9 +62,9 @@
 
 <section>
     <div class="container" style="margin-top: 30px">
-        <h2 class="text-center">Ideas Piura Tours Eirl.</h2>
+        <h2 class="text-center">Ideas Piura Tours EIRL.</h2>
         <p class="text-center" style="margin-top: 30px">
-            La Agencia de Viajes y Turismo Ideas Piura Tours EIRL con RUC 20604249296 y oficina comercial ubicada en calle Junín 651 (referencias espaladas del hotel costa del sol Piura). Tiene el agrado de presentarse ante ustedes con la finalidad de ofrecerles nuestra amplia variedad de productos y servicios turísticos, siendo una excelente alternativa en la elección que Usted y su Institución educativa requiera.
+            La Agencia de Viajes y Turismo Ideas Piura Tours EIRL con RUC 20604249296 y oficina comercial ubicada en calle Junín 651 (referencias espaladas del hotel costa del sol Piura). Tiene el agrado de presentarse ante ustedes con la finalidad de ofrecerles nuestra amplia variedad de productos y servicios turísticos, siendo una excelente alternativa en la elección que Usted y su Institución requiera.
         </p>
     </div>
 </section>

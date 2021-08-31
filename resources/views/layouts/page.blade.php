@@ -7,14 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="IDEASSOFT PERÚ">
-    <link rel="icon" href="{{asset('turismo/images/ideaspiuratours/ideaspiuratours.png')}}">
-    <link rel="shortcut icon" type="image/ico" href="{{asset('turismo/images/ideaspiuratours/ideaspiuratours.png')}}" />
+    <link rel="icon" href="{{asset('turismo/images/ideaspiuratours/logo_piuratours.png')}}">
+    <link rel="shortcut icon" type="image/ico" href="{{asset('turismo/images/ideaspiuratours/logo_piuratours.png')}}" />
 
     <meta property="og:url" content="https://ideaspiuratours.com/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Ideas Piura Tours Eirl - Agencia de viajes y turismo." />
+    <meta property="og:title" content="Ideas Piura Tours EIRL - Agencia de viajes y turismo." />
     <meta property="og:description" content="Agencia de viajes y turismo a nivel local y nacional." />
-    <meta property="og:image" content="{{asset('turismo/images/ideaspiuratours/ideaspiuratours.png')}}" />
+    <meta property="og:image" content="{{asset('turismo/images/ideaspiuratours/logo_piuratours.png')}}" />
 
     <meta name="keywords" content="Agencia de viajes y turismo, viajes, paquetes, servicios, agencia, canchaque, turismo, playas, mancora, zorritos, vichayito, tortugas marinas, agencia de viajes, Ideas Piura Tours">
 
@@ -101,7 +101,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="/"><img src="{{asset('turismo/images/ideaspiuratours/logo.png')}}" style="width: 150px; height: auto; margin-top: -50px;" alt="logo-ideaspiuratours"></a>
+                        <a class="navbar-brand" href="/"><img src="{{asset('turismo/images/ideaspiuratours/logo_piuratours.png')}}" style="width: 100px; height: auto; margin-top: -15px;" alt="logo-ideaspiuratours"></a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
                         <button class="close-navbar"><i class="fa fa-close"></i></button>
