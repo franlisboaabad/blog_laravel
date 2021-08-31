@@ -219,7 +219,7 @@
 <section>
     <div class="container" style="margin-top: 30px">
         <h3 class="text-center" style="margin-bottom: 30px">Agencia de viajes registrada</h3>
-        <div class="row">
+        <div class="row text-center">
             <div class="col-md-3">
                 <img src="{{ asset('turismo/images/ideaspiuratours/mincetur_web.png') }}" alt="Mincetur ideaspiuratours" class="img-fluid">
             </div>

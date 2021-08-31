@@ -40,7 +40,7 @@
 <section id="valores">
 
     <div class="row" style=" margin-top: 30px ;margin-bottom:30px">
-        <div class="col-md-4 mb-3">
+        <div class="col-md-4 mb-3" style="margin-bottom: 30px">
             <div class="card">
                 <div class="card-body">
                     <h3 class="text-center">Misión</h3>
@@ -48,7 +48,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 mb-3">
+        <div class="col-md-4 mb-3" style="margin-bottom: 30px">
             <div class="card">
                 <div class="card-body">
                     <h3 class="text-center">Visión</h3>
@@ -56,7 +56,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 mb-3">
+        <div class="col-md-4 mb-3" style="margin-bottom: 30px">
             <div class="card">
 
                 <div class="card-body">
@@ -70,7 +70,7 @@
 </section>
 
 <section style="margin-top: 30px; margin-bottom:30px">
-    <div class="row">
+    <div class="row text-center">
         <div class="col-md-3">
             <img src="{{ asset('turismo/images/ideaspiuratours/mincetur_web.png') }}" alt="Mincetur ideaspiuratours" class="img-fluid">
         </div>

@@ -163,6 +163,15 @@
     height: 300px !important;
 }
 
+@media (max-width: 576px) {
+    .hero-style-1, .hero-style-2, .hero-style-3 {
+        height: 250px !important;
+    }
+    .tarjetas{
+        display: none !important;
+    }
+}
+
 /* dispositivo movil */
 
 @media (max-width: 991px) {

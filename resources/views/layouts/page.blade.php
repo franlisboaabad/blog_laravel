@@ -140,14 +140,14 @@
             <div class="upper-footer">
                 <div class="container">
                     <div class="row">
-                        <div class="col col-md-5 col-sm-6">
+                        <div class="col col-md-5 col-sm-6" style="margin-bottom:30px">
                             <div class="widget recent-post-widget">
                                 <p class="text-justify">Agencia de Viajes y Tour Operadora en la ciudad de Piura - Perú, ofrecemos servicios personalizados para vivir la mejor experiencia en viajes y turismo</p>
                             </div>
                         </div>
 
-                        <div class="col col-md-4 col-sm-6">
-                            <div class="widget recent-post-widget">
+                        <div class="col col-md-4 col-sm-6" style="margin-bottom:30px">
+                            <div class="widget recent-post-widget tarjetas">
                                <p class="text-center">
                                    <span class="text-center"> Aceptamos todas las tarjetas de credito y debito </span>
                                </p>
@@ -156,7 +156,7 @@
                             </div>
                         </div>
 
-                        <div class="col col-md-3 col-sm-6">
+                        <div class="col col-md-3 col-sm-6" style="margin-bottom:30px">
                             <div class="widget quick-links-widget">
                                  <p>
                                     <i class="fa fa-cube"></i> info@ideaspiuratours.com <br>
