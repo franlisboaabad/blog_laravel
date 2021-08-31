@@ -65,6 +65,10 @@ class PageController extends Controller
         return view('portafolio.piura');
     }
 
+    public function movilidad()
+    {
+        return view('portafolio.movilidad');
+    }
 
 
 

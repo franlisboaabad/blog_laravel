@@ -6,6 +6,7 @@
 
     <div class="container my-5">
         <h3 class="text-center" style="margin-bottom:30px">Nuestros servicios</h3>
+
         <div class="row pt-3">
 
 
@@ -15,7 +16,7 @@
                     <div class="card-body">
                         <h5 class="text-justify">PQTE. MANCORA - EL NORTE LO TIENE TODO 5D / 4N </h5>
                         <button class="btn btn-warning" data-toggle="modal" data-target="#tours-m1"> <i class="fa fa-eye"></i> Más información</button>
-                        <a href="https://wa.link/ilkbsa" target="_blank"  class="btn btn-success"> <i class="fa fa-whatsapp"></i> Solicitar Ahora</a>
+                        <a href="https://wa.link/ilkbsa" target="_blank" class="btn btn-success"> <i class="fa fa-whatsapp"></i> Solicitar Ahora</a>
                     </div>
                 </div>
             </div>
@@ -27,7 +28,7 @@
                     <div class="card-body">
                         <h5 class="text-justify">PQTE. MANCORA - VIVE EL NORTE 4D / 3N </h5>
                         <button class="btn btn-warning" data-toggle="modal" data-target="#tours1"> <i class="fa fa-eye"></i> Más información</button>
-                        <a href="https://wa.link/ilkbsa" target="_blank"  class="btn btn-success"> <i class="fa fa-whatsapp"></i> Solicitar Ahora</a>
+                        <a href="https://wa.link/ilkbsa" target="_blank" class="btn btn-success"> <i class="fa fa-whatsapp"></i> Solicitar Ahora</a>
                     </div>
                 </div>
             </div>
@@ -38,7 +39,7 @@
                     <div class="card-body">
                         <h5 class="text-justify">PQTE. MANCORA - ENAMORATE DEL NORTE 3D / 2N </h5>
                         <button class="btn btn-warning" data-toggle="modal" data-target="#tours2"> <i class="fa fa-eye"></i> Más información</button>
-                        <a href="https://wa.link/ilkbsa" target="_blank"  class="btn btn-success"> <i class="fa fa-whatsapp"></i> Solicitar Ahora</a>
+                        <a href="https://wa.link/ilkbsa" target="_blank" class="btn btn-success"> <i class="fa fa-whatsapp"></i> Solicitar Ahora</a>
                     </div>
                 </div>
             </div>
@@ -49,7 +50,7 @@
                     <div class="card-body">
                         <h5 class="text-justify">PQTE. MANCORA 2D / 1N </h5>
                         <button class="btn btn-warning" data-toggle="modal" data-target="#tours3"> <i class="fa fa-eye"></i> Más información</button>
-                        <a href="https://wa.link/ilkbsa" target="_blank"  class="btn btn-success"> <i class="fa fa-whatsapp"></i> Solicitar Ahora</a>
+                        <a href="https://wa.link/ilkbsa" target="_blank" class="btn btn-success"> <i class="fa fa-whatsapp"></i> Solicitar Ahora</a>
                     </div>
                 </div>
             </div>
@@ -60,7 +61,7 @@
                     <div class="card-body">
                         <h5 class="text-justify">TOURS MANCORA</h5>
                         <button class="btn btn-warning" data-toggle="modal" data-target="#tours4"> <i class="fa fa-eye"></i> Más información</button>
-                        <a href="https://wa.link/ilkbsa" target="_blank"  class="btn btn-success"> <i class="fa fa-whatsapp"></i> Solicitar Ahora</a>
+                        <a href="https://wa.link/ilkbsa" target="_blank" class="btn btn-success"> <i class="fa fa-whatsapp"></i> Solicitar Ahora</a>
                     </div>
                 </div>
             </div>
@@ -71,7 +72,7 @@
                     <div class="card-body">
                         <h5 class="text-justify">TOURS CANCHAQUE + EL FAIQUE FULL DAY</h5>
                         <button class="btn btn-warning" data-toggle="modal" data-target="#tours5"> <i class="fa fa-eye"></i> Más información</button>
-                        <a href="https://wa.link/ilkbsa" target="_blank"  class="btn btn-success"> <i class="fa fa-whatsapp"></i> Solicitar Ahora</a>
+                        <a href="https://wa.link/ilkbsa" target="_blank" class="btn btn-success"> <i class="fa fa-whatsapp"></i> Solicitar Ahora</a>
                     </div>
                 </div>
             </div>
@@ -82,7 +83,7 @@
                     <div class="card-body">
                         <h5 class="text-justify">TOURS CANCHAQUE 2 DÍAS / 1 NOCHE </h5>
                         <button class="btn btn-warning" data-toggle="modal" data-target="#tours6"> <i class="fa fa-eye"></i> Más información</button>
-                        <a href="https://wa.link/ilkbsa" target="_blank"  class="btn btn-success"> <i class="fa fa-whatsapp"></i> Solicitar Ahora</a>
+                        <a href="https://wa.link/ilkbsa" target="_blank" class="btn btn-success"> <i class="fa fa-whatsapp"></i> Solicitar Ahora</a>
                     </div>
                 </div>
             </div>
@@ -94,7 +95,7 @@
                     <div class="card-body">
                         <h5 class="text-justify">TOURS CANCHAQUE 2 DÍAS / 1 NOCHE + FAIQUE</h5>
                         <button class="btn btn-warning" data-toggle="modal" data-target="#tours7"> <i class="fa fa-eye"></i> Más información</button>
-                        <a href="https://wa.link/ilkbsa" target="_blank"  class="btn btn-success"> <i class="fa fa-whatsapp"></i> Solicitar Ahora</a>
+                        <a href="https://wa.link/ilkbsa" target="_blank" class="btn btn-success"> <i class="fa fa-whatsapp"></i> Solicitar Ahora</a>
                     </div>
                 </div>
             </div>
@@ -107,13 +108,29 @@
                     <div class="card-body">
                         <h5 class="text-justify">CITY TOURS PIURA.</h5>
                         <button class="btn btn-warning" data-toggle="modal" data-target="#tours8"> <i class="fa fa-eye"></i> Más información</button>
-                        <a href="https://wa.link/ilkbsa" target="_blank"  class="btn btn-success"> <i class="fa fa-whatsapp"></i> Solicitar Ahora</a>
+                        <a href="https://wa.link/ilkbsa" target="_blank" class="btn btn-success"> <i class="fa fa-whatsapp"></i> Solicitar Ahora</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="row pt-3">
+
+            <div class="col-md-4" style="margin-bottom:30px">
+                <div class="card">
+                    <img class="card-img-top" src="{{ asset('turismo/images/ideaspiuratours/servicios/movilidad_web.jpg') }}" alt="Trekking Catarata Chorro Blanco">
+                    <div class="card-body">
+                        <h5 class="text-justify">SERVICIO DE MOVILIDAD.</h5>
+                        <a href="{{ route('movilidad') }}" class="btn btn-danger"> <i class="fa fa-photo"></i> Galería de imágenes</a>
+                        <a href="https://wa.link/ilkbsa" target="_blank" class="btn btn-success"> <i class="fa fa-whatsapp"></i> Solicitar Ahora</a>
                     </div>
                 </div>
             </div>
 
         </div>
-
 
         <section style="margin-bottom:30px">
             <div class="row pt-5">

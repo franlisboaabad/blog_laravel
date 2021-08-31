@@ -36,6 +36,7 @@ Route::get('/portafolio/caracucho', 'PageController@caracucho')->name('caracucho
 Route::get('/portafolio/mancora', 'PageController@mancora')->name('mancora');
 Route::get('/portafolio/canchaque', 'PageController@canchaque')->name('canchaque');
 Route::get('/portafolio/piura', 'PageController@piura')->name('piura');
+Route::get('/portafolio/movilidad', 'PageController@movilidad')->name('movilidad');
 
 // email formulario contacto 
 Route::post('/contactar', 'PageController@contacto_email')->name('contacto_email');

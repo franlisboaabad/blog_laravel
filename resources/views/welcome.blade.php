@@ -62,7 +62,7 @@
 
 <section>
     <div class="container" style="margin-top: 30px">
-        <h2 class="text-center">Ideas Piura Tours EIRL.</h2>
+        <h2 class="text-center" style="color: #2ECC71">Ideas Piura Tours EIRL.</h2>
         <p class="text-center" style="margin-top: 30px">
             La Agencia de Viajes y Turismo Ideas Piura Tours EIRL con RUC 20604249296 y oficina comercial ubicada en calle Junín 651 (referencias espaladas del hotel costa del sol Piura). Tiene el agrado de presentarse ante ustedes con la finalidad de ofrecerles nuestra amplia variedad de productos y servicios turísticos, siendo una excelente alternativa en la elección que Usted y su Institución requiera.
         </p>
@@ -78,11 +78,13 @@
         <h3 class="text-center" style="margin-bottom: 30px">Nuestros Servicios</h3>
 
         <div class="row">
+
             <div class="col-md-4" style="margin-bottom:30px">
                 <div class="card">
                     <img class="card-img-top" src="{{ asset('turismo/images/ideaspiuratours/servicios/mancora_web1.jpg') }}" alt="Mancora ideaspiuratours">
                     <div class="card-body">
-                        <h5 class="text-justify">PQTE. MANCORA - ENAMORATE DEL NORTE 5D / 4N </h5>
+                        <h5 class="text-justify">PQTE. MANCORA - EL NORTE LO TIENE TODO 5D / 4N </h5>
+                        
                         
                     </div>
                 </div>
@@ -93,8 +95,9 @@
                 <div class="card">
                     <img class="card-img-top" src="{{ asset('turismo/images/ideaspiuratours/servicios/mancora_web2.jpg') }}" alt="Mancora ideaspiuratours">
                     <div class="card-body">
-                        <h5 class="text-justify">PQTE. MANCORA - ENAMORATE DEL NORTE 4D / 3N </h5>
-                       
+                        <h5 class="text-justify">PQTE. MANCORA - VIVE EL NORTE 4DÍAS / 3NOCHES </h5>
+                        
+                        
                     </div>
                 </div>
             </div>
@@ -127,7 +130,7 @@
 <section>
     <div class="container" style="margin-top: 30px">
 
-        <h3 class="text-center" >Turismo en Piura</h3>
+        <h3 class="text-center">Turismo en Piura</h3>
 
         <div class="row" style="margin-top: 30px">
             <div class="col-md-4" style="margin-bottom:30px">
@@ -177,7 +180,7 @@
 
         <div class="row">
 
-             <div class="col-md-4" style="margin-bottom:30px">
+            <div class="col-md-4" style="margin-bottom:30px">
                 <div class="card">
                     <img class="card-img-top" src="{{ asset('turismo/images/ideaspiuratours/portafolio/tortugas_web.jpg') }}" alt="portafolio ideaspiuratours">
                     <div class="card-body">
@@ -211,7 +214,7 @@
             </div>
 
         </div>
-       
+
     </div>
 </section>
 
