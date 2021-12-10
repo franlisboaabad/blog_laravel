@@ -33,15 +33,13 @@
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
 
-    {{-- facebook --}}
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v10.0" nonce="nbPw50Vh"></script>
+
+
 </head>
 
 <body>
 
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v11.0" nonce="ct7U1qVN"></script>
+
 
     <!-- start page-wrapper -->
     <div class="page-wrapper">
@@ -150,17 +148,17 @@
 
                         <div class="col col-md-4 col-sm-6" style="margin-bottom:30px">
                             <div class="widget recent-post-widget tarjetas">
-                               <p class="text-center">
-                                   <span class="text-center"> Aceptamos todas las tarjetas de credito y debito </span>
-                               </p>
-                               <img src="{{ asset('turismo/images/ideaspiuratours/tarjetas.jpg') }}" alt="" class="img-fluid">
+                                <p class="text-center">
+                                    <span class="text-center"> Aceptamos todas las tarjetas de credito y debito </span>
+                                </p>
+                                <img src="{{ asset('turismo/images/ideaspiuratours/tarjetas.jpg') }}" alt="" class="img-fluid">
 
                             </div>
                         </div>
 
                         <div class="col col-md-3 col-sm-6" style="margin-bottom:30px">
                             <div class="widget quick-links-widget">
-                                 <p>
+                                <p>
                                     <i class="fa fa-cube"></i> info@ideaspiuratours.com <br>
                                     <i class="fa fa-phone"></i> +51 945 368 416 <br>
                                     <i class="fa fa-map-marker"></i> Calle Junin 651 - Piura
@@ -199,6 +197,9 @@
 
 
 
+
+
+
     <!-- All JavaScript files
     ================================================== -->
     <script src="{{ asset('turismo/js/jquery.min.js') }} "></script>
@@ -220,6 +221,10 @@
         });
 
     </script>
+
+
+
+
 
 
 
