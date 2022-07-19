@@ -137,7 +137,7 @@
             <div class="upper-footer">
                 <div class="container">
                     <div class="row">
-                        <div class="col col-md-5 col-sm-6">
+                        <div class="col col-md-4 col-sm-6">
                             <div class="widget recent-post-widget">
                                 <p class="text-justify">Agencia de Viajes y Tour Operadora en la ciudad de Piura - Perú, ofrecemos servicios personalizados para vivir la mejor experiencia en viajes y turismo</p>
 
@@ -149,18 +149,19 @@
                                 <p>
                                     <i class="fa fa-cube"></i>  informes@piuratrips.com <br>
                                     <i class="fa fa-phone"></i>  +51 951 411 377 <br>
-                                    <i class="fa fa-map-marker"></i> Conj. Hab. Villa California – Interior A- 1, Castilla.
+                                    <i class="fa fa-map-marker"></i> Conj. Hab. Villa California – Interior A- 1, Castilla. <br>
+                                    <i></i> RUC: 20603077947 
                                 </p>
                             </div>
                         </div>
 
-                        <div class="col col-md-2 col-sm-6">
-                            <div class="widget quick-links-widget">
-
-                            </div>
+                        <div class="col col-md-3 col-sm-6">
+                             <p class="" >
+                                    <a href="{{ asset('/turismo/images/archivos/politicas_de_privacidad_piuratrips.pdf') }}" target="_blank"  style="color:white">Políticas de privacidad</a> <br>
+                                    <a href="{{ asset('/turismo/images/archivos/terminos_y_condiciones_piuratrips.pdf') }}" target="_blank"   style="color:white">Términos y condiciones</a> <br>
+                                    <a href="{{ asset('/turismo/images/archivos/libro_de_reclamaciones_piuratrips.pdf') }}" target="_blank"  style="color:white">Libro de reclamaciones</a> <br>
+                                </p>
                         </div>
-
-
 
                     </div>
                 </div>

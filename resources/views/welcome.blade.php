@@ -189,33 +189,41 @@
         </div>
 
         <div class="paquetes text-center">
-            <a href="{{ route('servicios') }}" class="btn btn-danger"> <i class="fa fa-paper-plane">  </i> Todos los paquetes </a>
+            <a href="{{ route('servicios') }}" class="btn btn-danger"> <i class="fa fa-paper-plane"> </i> Todos los paquetes </a>
         </div>
     </div>
 </section>
 
 
 <section>
-    <div class="container" style="margin-top: 30px">
+    <div class="container" style="margin-top: 30px; margin-bottom: 30px;">
         <h3 class="text-center text-muted">Agencia de viajes registrada</h3>
-        <div class="row" style="margin-top: 30px">
-            <div class="col-md-3"></div>
-            <div class="col-md-3" style="margin-bottom: 30px">
-                <a href="https://www.gob.pe/minedu" target="_blank"> <img src="{{ asset('turismo/images/m-educacion.png') }}" alt="ministerio de educacion" class="img-thumbnail" style="margin-top:30px"> </a>
+        <div class="row" style="margin-top: 30px; text-align: center;">
+
+            <div class="col-md-2 mb-3">
+                <a href="https://www.gob.pe/mincetur" target="_blank"><img src="{{ asset('turismo/images/enlaces/mincetur.png') }}" class="img-fluid"></a>
             </div>
-            <div class="col-md-3" style="margin-bottom: 30px">
-                <a href="http://dircetur.regionpiura.gob.pe/" target="_blank"><img src="{{ asset('turismo/images/dir-cetur.png') }}" alt="dir cetur" class="img-thumbnail"></a>
+            <div class="col-md-2 mb-3">
+                <a href="http://consultasenlinea.mincetur.gob.pe/set-regiones/(S(owdrwwbukojznhtfn3s1za0n))/Reportes/WebReportes/RptListadoCoincidencias.aspx?StrTipo=1&Var=02|20603077947|||" target="_blank"><img src="{{ asset('turismo/images/enlaces/agencia_registrada.png') }}" class="img-fluid"></a>
             </div>
-            <div class="col-md-3"></div>
+            <div class="col-md-2 mb-3">
+                <a href="https://peru.info/en-us/" target="_blank"><img src="{{ asset('turismo/images/enlaces/marca_peru.png') }}" class="img-fluid"></a>
+            </div>
+
+            <div class="col-md-2 mb-3">
+                <a href="https://www.ytuqueplanes.com/" target="_blank"><img src="{{ asset('turismo/images/enlaces/ytuqueplanes.png') }}" class="img-fluid"></a>
+            </div>
+
+            <div class="col-md-2 mb-3">
+                <a href="https://www.facebook.com/ApavitPiura" target="_blank"><img src="{{ asset('turismo/images/enlaces/apavit.png') }}" class="img-fluid"></a>
+            </div>
+
+            <div class="col-md-2 mb-3">
+                <a href="https://chsalternativo.org/recurso/turismo-responsable-para-prevenir-la-explotacion-sexual-de-ninas-ninos-y-adolescentes/" target="_blank"><img src="{{ asset('turismo/images/enlaces/esnna.png') }}" class="img-fluid"></a>
+            </div>
+
+
         </div>
     </div>
 </section>
-
-
-<section>
-    <div class="" style="margin-top: 50px; margin-bottom: 50px;"></div>
-</section>
-
-
-
 @endsection
